@@ -1,7 +1,20 @@
 {
-    "language": "french",
-    "gid": 123,
-    "unit": "no unit",
-    "season": "no season",
-    "domain": "new domain"
+    "ingredients": [
+        {
+            "gid": 123
+        },
+        {
+            "gid": 124
+        }
+    ],
+    "recipes": [
+        {
+            "gid": 234,
+            "ingredients": [
+                123,
+                124
+            ],
+            "name": "cheesecake"
+        }
+    ]
 }

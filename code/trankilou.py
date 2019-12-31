@@ -7,17 +7,30 @@ if __name__ == "__main__":
     print(sys.argv)
 
 db = JManager(sys.argv[1])
-# json_data = db.read()
-butter = Ingredient(None, 121)
-milk = Ingredient(None, 123)
-
-ingredients = [butter, milk]
-
-json_string = json.dumps(ingredients, indent=4)
-print(json_string)
-db.record(json_string)
-
 json_data = db.read()
+cookbook = CookBook.from_json(json.loads(json_data))
 
-# ingredients = Ingredient(json_data, None)
-ingredients = json.loads(json_data)
+print(cookbook)
+
+butter = Ingredient(123)
+milk = Ingredient(124)
+cheesecake = Recipe(234, "cheesecake", [])
+cheesecake.add_ingredient(butter.gid)
+cheesecake.add_ingredient(milk.gid)
+
+cookbook = CookBook(recipes=[cheesecake], ingredients=[butter, milk])
+
+# Serializing
+
+data = json.dumps(cookbook, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+print(data)
+db.record(data)
+
+# Deserializing
+
+decoded_cookbook = CookBook.from_json(json.loads(data))
+print(decoded_cookbook)
+print(decoded_cookbook.recipes)
+
+
+
