@@ -1,1 +1,7 @@
-"[{\"name\": \"Tarte au fromage\"}, {\"name\": \"Tarte au ch\\u00e8vre\"}]"
+{
+    "language": "french",
+    "gid": 123,
+    "unit": "no unit",
+    "season": "no season",
+    "domain": "new domain"
+}

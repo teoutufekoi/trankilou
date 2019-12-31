@@ -8,12 +8,12 @@ class JManager:
 
     def record(self, data):
         with open(self.filename, 'w') as f:
-            json.dump(data, f)
+            f.write(data)
 
     def read(self):
         try:
-            with open(self.filename) as json_file:
-                data = json.load(json_file)
+            with open(self.filename) as f:
+                data = f.read()
                 return data
         except JSONDecodeError:
             pass
