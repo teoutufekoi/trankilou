@@ -23,14 +23,21 @@ cookbook = CookBook(recipes=[cheesecake], ingredients=[butter, milk])
 # Serializing
 
 data = json.dumps(cookbook, default=lambda o: o.__dict__, sort_keys=True, indent=4)
-print(data)
+# print(data)
 db.record(data)
 
 # Deserializing
 
 decoded_cookbook = CookBook.from_json(json.loads(data))
-print(decoded_cookbook)
-print(decoded_cookbook.recipes)
+# print(decoded_cookbook)
+# print(decoded_cookbook.recipes)
 
+# Tests on Ingredient List
 
-
+ingredients = [butter, milk]
+data = json.dumps(ingredients, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+db2 = JManager("ingredients.json")
+db2.record(data)
+data = json.loads(db2.read())
+decoded_ingredients = list(map(Ingredient.from_json, data))
+print(decoded_ingredients[0].gid)
