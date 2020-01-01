@@ -35,9 +35,7 @@ decoded_cookbook = CookBook.from_json(json.loads(data))
 # Tests on Ingredient List
 
 ingredients = [butter, milk]
-data = json.dumps(ingredients, default=lambda o: o.__dict__, sort_keys=True, indent=4)
 db2 = JManager("ingredients.json")
-db2.record(data)
-data = json.loads(db2.read())
-decoded_ingredients = list(map(Ingredient.from_json, data))
+db2.record_list(ingredients)
+decoded_ingredients = db2.read_list(Ingredient.from_json)
 print(decoded_ingredients[0].gid)
