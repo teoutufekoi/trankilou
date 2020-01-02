@@ -34,7 +34,7 @@ recipes.append(rec2)
 
 json_string = json.dumps(recipes)
 
-filename = "data.json"
+filename = "data/data.json"
 
 write_json(json_string, filename)
 

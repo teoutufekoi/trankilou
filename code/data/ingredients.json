@@ -1,0 +1,20 @@
+[
+    {
+        "domain": null,
+        "gid": 123,
+        "name": null,
+        "unit": null
+    },
+    {
+        "domain": null,
+        "gid": 124,
+        "name": null,
+        "unit": null
+    },
+    {
+        "domain": "legumes",
+        "gid": 125,
+        "name": "tomate",
+        "unit": "piece"
+    }
+]

@@ -6,6 +6,9 @@ class Ingredient:
 
     def __init__(self, gid: object):
         self.gid = gid
+        self.name = None
+        self.domain = None
+        self.unit = None
 
     @classmethod
     def from_json(cls, data):

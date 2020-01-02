@@ -4,9 +4,8 @@ from database import *
 if __name__ == "__main__":
     import sys
 
-    print(sys.argv)
-
-db = JManager(sys.argv[1])
+data_path = sys.argv[1]
+db = JManager(data_path + "data.json")
 json_data = db.read()
 cookbook = CookBook.from_json(json.loads(json_data))
 
@@ -35,7 +34,7 @@ decoded_cookbook = CookBook.from_json(json.loads(data))
 # Tests on Ingredient List
 
 ingredients = [butter, milk]
-db2 = JManager("ingredients.json")
+db2 = JManager(data_path + "ingredients.json")
 db2.record_list(ingredients)
 decoded_ingredients = db2.read_list(Ingredient.from_json)
 print(decoded_ingredients[0].gid)
