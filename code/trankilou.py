@@ -11,8 +11,8 @@ cookbook = CookBook.from_json(json.loads(json_data))
 
 print(cookbook)
 
-butter = Ingredient(123)
-milk = Ingredient(124)
+butter = Ingredient(123, "beurre", 4, 3)
+milk = Ingredient(124, "milk", 2, 6)
 cheesecake = Recipe(234, "cheesecake", [])
 cheesecake.add_ingredient(butter.gid)
 cheesecake.add_ingredient(milk.gid)

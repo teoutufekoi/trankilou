@@ -1,10 +1,18 @@
 import click
+import binascii
+import os
 from cookbook import *
 from database import *
 
 
+def generate_gid():
+    nbytes = 4
+    random_bytes = os.urandom(nbytes)
+    return binascii.hexlify(random_bytes).decode('ascii')
+
+
 def list_ingredients():
-    print('\n'.join(str(i.gid) for i in ingredients))
+    print('\n'.join(str(i.domain) + " - " + str(i.name) + " (" + str(i.unit) + ")" for i in ingredients))
 
 
 def record_ingredients():
@@ -16,13 +24,10 @@ def add_ingredient():
     name = click.prompt(click.style("Name?", fg="yellow", bold=True))
     domain = click.prompt(click.style("Domain?", fg="yellow", bold=True))
     unit = click.prompt(click.style("Unit?", fg="yellow", bold=True))
-    gid = 125
+    gid = generate_gid()
 
     # Create new ingredient
-    ingredient = Ingredient(gid)
-    ingredient.name = name
-    ingredient.domain = domain
-    ingredient.unit = unit
+    ingredient = Ingredient(gid, name, domain, unit)
 
     # Add the ingredient to the list
     ingredients.append(ingredient)

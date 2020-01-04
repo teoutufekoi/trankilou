@@ -12,9 +12,33 @@
         "unit": null
     },
     {
-        "domain": "legumes",
+        "domain": null,
         "gid": 125,
-        "name": "tomate",
-        "unit": "piece"
+        "name": null,
+        "unit": null
+    },
+    {
+        "domain": null,
+        "gid": 125,
+        "name": null,
+        "unit": null
+    },
+    {
+        "domain": null,
+        "gid": 125,
+        "name": null,
+        "unit": null
+    },
+    {
+        "domain": "fromagerie",
+        "gid": 125,
+        "name": "beurre",
+        "unit": "g"
+    },
+    {
+        "domain": "l\u00e9gumes",
+        "gid": "93c1aa4a",
+        "name": "tomates",
+        "unit": "pc"
     }
 ]

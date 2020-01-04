@@ -4,11 +4,11 @@ import json
 
 class Ingredient:
 
-    def __init__(self, gid: object):
+    def __init__(self, gid: object, name: object, domain: object, unit: object):
         self.gid = gid
-        self.name = None
-        self.domain = None
-        self.unit = None
+        self.name = name
+        self.domain = domain
+        self.unit = unit
 
     @classmethod
     def from_json(cls, data):
