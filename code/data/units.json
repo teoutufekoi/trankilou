@@ -1,0 +1,32 @@
+[
+    {
+        "gid": "590c07ad",
+        "name": "pi\u00e8ce",
+        "short": "pce"
+    },
+    {
+        "gid": "ffa29d26",
+        "name": "grammes",
+        "short": "g"
+    },
+    {
+        "gid": "e8a9ef63",
+        "name": "kilos",
+        "short": "kg"
+    },
+    {
+        "gid": "17c4cd83",
+        "name": "centilitres",
+        "short": "cl"
+    },
+    {
+        "gid": "653e7418",
+        "name": "d\u00e9cilitres",
+        "short": "dl"
+    },
+    {
+        "gid": "6429c27c",
+        "name": "litres",
+        "short": "l"
+    }
+]
