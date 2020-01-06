@@ -40,5 +40,11 @@
         "gid": "93c1aa4a",
         "name": "tomates",
         "unit": "pc"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "54775d86",
+        "name": "pommes de terre",
+        "unit": "6429c27c"
     }
 ]

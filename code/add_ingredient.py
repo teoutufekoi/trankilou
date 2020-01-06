@@ -29,11 +29,11 @@ def add_ingredient():
     
     # Ask for the unit using the list of existing units
     for i in range(len(units)):
-        print("\n - " + i + " - " + str(units[i].name))
+        print("- " + str(i) + " - " + str(units[i].name))
     while True:
         action = click.prompt(click.style("Select a unit",
                                            fg="yellow", bold=True))
-        if action < len(units):
+        if action.isdigit() and float(action) < len(units):
             unit = units[i].gid
             break
         else:
@@ -41,11 +41,11 @@ def add_ingredient():
     
     # Ask for the domain using the list of existing domains
     for i in range(len(domains)):
-        print("\n - " + i + " - " + str(domains[i].name))
+        print("- " + str(i) + " - " + str(domains[i].name))
     while True:
         action = click.prompt(click.style("Select a domain",
                                           fg="yellow", bold=True))
-        if action < len(domains):
+        if action.isdigit() and float(action) < len(units):
             domain = domains[i].gid
             break
         else:
@@ -97,7 +97,7 @@ db_unit = JManager(unit_path_data)
 units = db_unit.read_list(Unit.from_json)
 domain_path_data = sys.argv[1] + "domains.json"
 db_domain = JManager(domain_path_data)
-domains = db_domain.read_list(domain.from_json)
+domains = db_domain.read_list(Domain.from_json)
 
 # Prompt input from user
 get_ingredient_input_key()

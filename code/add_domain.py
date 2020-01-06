@@ -25,7 +25,7 @@ def add_domain():
     gid = generate_gid()
 
     # Create new ingredient
-    domain = domain(gid, name)
+    domain = Domain(gid, name)
 
     # Add the ingredient to the list
     domains.append(domain)
@@ -64,7 +64,7 @@ if __name__ == "__main__":
 # Initialize the list of ingredients from the JSON file
 data_path = sys.argv[1] + "domains.json"
 db = JManager(data_path)
-domains = db.read_list(domain.from_json)
+domains = db.read_list(Domain.from_json)
 
 # Prompt input from user
 get_input_key()

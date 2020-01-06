@@ -1,7 +1,7 @@
 from typing import List
 import json
 
-class Doamin:
+class Domain:
 
     def __init__(self, gid: object, name: object):
         self.gid = gid
