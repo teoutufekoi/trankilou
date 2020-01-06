@@ -1,6 +1,27 @@
 from typing import List
 import json
 
+class Doamin:
+
+    def __init__(self, gid: object, name: object):
+        self.gid = gid
+        self.name = name
+
+    @classmethod
+    def from_json(cls, data):
+        return cls(**data)
+
+
+class Unit:
+
+    def __init__(self, gid: object, name: object, short: object):
+        self.gid = gid
+        self.name = name
+        self.short = short
+
+    @classmethod
+    def from_json(cls, data):
+        return cls(**data)
 
 class Ingredient:
 

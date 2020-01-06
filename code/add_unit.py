@@ -11,47 +11,46 @@ def generate_gid():
     return binascii.hexlify(random_bytes).decode('ascii')
 
 
-def list_ingredients():
-    print('\n'.join(str(i.domain) + " - " + str(i.name) + " (" + str(i.unit) + ")" for i in ingredients))
+def list_units():
+    print('\n'.join(str(i.name) + " - " + str(i.short) for i in units))
 
 
-def record_ingredients():
-    db.record_list(ingredients)
+def record_units():
+    db.record_list(units)
 
 
-def add_ingredient():
+def add_unit():
     # Get information from the user
     name = click.prompt(click.style("Name?", fg="yellow", bold=True))
-    domain = click.prompt(click.style("Domain?", fg="yellow", bold=True))
-    unit = click.prompt(click.style("Unit?", fg="yellow", bold=True))
+    short = click.prompt(click.style("Short name?", fg="yellow", bold=True))
     gid = generate_gid()
 
     # Create new ingredient
-    ingredient = Ingredient(gid, name, domain, unit)
+    unit = Unit(gid, name, short)
 
     # Add the ingredient to the list
-    ingredients.append(ingredient)
+    units.append(unit)
 
     # List updated ingredient list
-    list_ingredients()
+    list_units()
 
     # Record the change to the JSON file
-    record_ingredients()
+    record_units()
 
 
 def get_input_key():
     info = ""
-    info += "'l' => list the current ingredients\n"
-    info += "'a' => add new ingredient\n"
+    info += "'l' => list the current units\n"
+    info += "'a' => add new units\n"
     info += "'q' => record and quit\n"
     click.secho(info, fg="yellow", bold=True)
     while True:
         action = click.prompt(click.style("Select an action",
                                            fg="yellow", bold=True))
         if action == "l":
-            list_ingredients()
+            list_units()
         elif action == "a":
-            add_ingredient()
+            add_unit()
         elif action == "q":
             print("Ciao!!")
             exit(0)
@@ -64,9 +63,9 @@ if __name__ == "__main__":
     import sys
 
 # Initialize the list of ingredients from the JSON file
-data_path = sys.argv[1] + "ingredients.json"
+data_path = sys.argv[1] + "units.json"
 db = JManager(data_path)
-ingredients = db.read_list(Ingredient.from_json)
+units = db.read_list(Unit.from_json)
 
 # Prompt input from user
 get_input_key()
