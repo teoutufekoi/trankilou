@@ -46,5 +46,17 @@
         "gid": "54775d86",
         "name": "pommes de terre",
         "unit": "6429c27c"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "1885d952",
+        "name": "ch\u00e8vre",
+        "unit": "6429c27c"
+    },
+    {
+        "domain": "39b88b46",
+        "gid": "ba591953",
+        "name": "cr\u00e8me fra\u00eeche",
+        "unit": "6429c27c"
     }
 ]

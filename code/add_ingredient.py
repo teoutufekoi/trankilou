@@ -33,8 +33,8 @@ def add_ingredient():
     while True:
         action = click.prompt(click.style("Select a unit",
                                            fg="yellow", bold=True))
-        if action.isdigit() and float(action) < len(units):
-            unit = units[i].gid
+        if action.isdigit() and int(action) < len(units):
+            unit = units[int(action)].gid
             break
         else:
             click.secho("Please select a unit using a proper index.", fg="red", bold=True)
@@ -45,8 +45,8 @@ def add_ingredient():
     while True:
         action = click.prompt(click.style("Select a domain",
                                           fg="yellow", bold=True))
-        if action.isdigit() and float(action) < len(units):
-            domain = domains[i].gid
+        if action.isdigit() and int(action) < len(units):
+            domain = domains[int(action)].gid
             break
         else:
             click.secho("Please select a domain using a proper index.", fg="red", bold=True)

@@ -1,0 +1,93 @@
+[
+    {
+        "gid": "f078c9d9",
+        "ingredients": [
+            {
+                "domain": null,
+                "gid": 123,
+                "name": null,
+                "unit": null
+            },
+            {
+                "domain": null,
+                "gid": 124,
+                "name": null,
+                "unit": null
+            },
+            {
+                "domain": null,
+                "gid": 125,
+                "name": null,
+                "unit": null
+            },
+            {
+                "domain": null,
+                "gid": 125,
+                "name": null,
+                "unit": null
+            },
+            {
+                "domain": null,
+                "gid": 125,
+                "name": null,
+                "unit": null
+            },
+            {
+                "domain": "fromagerie",
+                "gid": 125,
+                "name": "beurre",
+                "unit": "g"
+            },
+            {
+                "domain": "l\u00e9gumes",
+                "gid": "93c1aa4a",
+                "name": "tomates",
+                "unit": "pc"
+            },
+            {
+                "domain": "17b14bbf",
+                "gid": "54775d86",
+                "name": "pommes de terre",
+                "unit": "6429c27c"
+            },
+            {
+                "domain": "17b14bbf",
+                "gid": "1885d952",
+                "name": "ch\u00e8vre",
+                "unit": "6429c27c"
+            },
+            {
+                "domain": "39b88b46",
+                "gid": "ba591953",
+                "name": "cr\u00e8me fra\u00eeche",
+                "unit": "6429c27c"
+            }
+        ],
+        "name": "lasagne"
+    },
+    {
+        "gid": "62544a49",
+        "ingredients": [
+            "54775d86"
+        ],
+        "name": "coq au vin"
+    },
+    {
+        "gid": "9ba9ae45",
+        "ingredients": [
+            "93c1aa4a",
+            "1885d952"
+        ],
+        "name": "pizza"
+    },
+    {
+        "gid": "87568f6d",
+        "ingredients": [
+            {
+                "gid": "54775d86",
+                "quantity": 2.0
+            }
+        ],
+        "name": "gratin"
+    }
+]
