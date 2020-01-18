@@ -38,9 +38,10 @@ class Ingredient:
 
 class Recipe:
 
-    def __init__(self, gid: int, name: str, ingredients: List[int]):
+    def __init__(self, gid: int, name: str, count: int, ingredients: List[int]):
         self.gid = gid
         self.name = name
+        self.count = count
         self.ingredients = ingredients
 
     def add_ingredient(self, ingredient):
