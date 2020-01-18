@@ -75,10 +75,17 @@ def add_recipe():
         action = click.prompt(click.style("How many people?",
                                            fg="yellow", bold=True))
         if action.isdigit():
-            count = float(action)
+            count = int(action)
             break
         else:
             click.secho("Please enter a digit", fg="red", bold=True)
+
+    # Ask for the reference of the recipe
+    while True:
+        action = click.prompt(click.style("Reference?",
+                                           fg="yellow", bold=True))
+        reference = str(action)
+        break
 
     # Build the ingredient list
     while True:
@@ -92,7 +99,7 @@ def add_recipe():
             click.secho("Invalid choice", fg="red", bold=True)
 
     # Create new recipe
-    recipe = Recipe(gid, name, count, ingredients)
+    recipe = Recipe(gid, name, count, reference, ingredients)
 
     # Add the recipe to the list
     recipes.append(recipe)
