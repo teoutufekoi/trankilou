@@ -53,6 +53,32 @@ class Recipe:
         return cls(**data)
 
 
+class SelectedRecipe:
+
+    def __init__(self, gid: int, count: int):
+        self.gid = gid
+        self.count = count
+
+    @classmethod
+    def from_json(cls, data):
+        return cls(**data)
+
+
+class ShoppingList:
+
+    def __init__(self, gid: int, name: str, recipes: List[SelectedRecipe]):
+        self.gid = gid
+        self.name = name
+        self.recipes = recipes
+
+    @classmethod
+    def from_json(cls, data):
+        gid = data["gid"]
+        name = data["name"]
+        recipes = list(map(SelectedRecipe.from_json, data["recipes"]))
+        return cls(gid, name, recipes)
+
+
 class CookBook:
 
     def __init__(self, recipes: List[Recipe], ingredients: List[Ingredient]):
