@@ -33,5 +33,20 @@
         "gid": "ec7b99e0",
         "name": "pinc\u00e9e",
         "short": "pinc"
+    },
+    {
+        "gid": "5033bb1a",
+        "name": "cuill\u00e8re \u00e0 caf\u00e9",
+        "short": "cc"
+    },
+    {
+        "gid": "d7b90c20",
+        "name": "cuill\u00e8re \u00e0 soupe",
+        "short": "CS"
+    },
+    {
+        "gid": "28ca83f5",
+        "name": "goutte",
+        "short": "gte"
     }
 ]

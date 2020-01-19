@@ -94,5 +94,77 @@
         "gid": "0f6a3748",
         "name": "lait",
         "unit": "6429c27c"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "44651bb5",
+        "name": "branche de thym",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "446f7fa6",
+        "name": "poivron",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "39007942",
+        "name": "bo\u00eete de tomates pel\u00e9es",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "13437721",
+        "name": "haricots rouges \u00e9goutt\u00e9s",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "46e1f1b6",
+        "name": "bouillon de boeuf",
+        "unit": "17c4cd83"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "26d4556e",
+        "name": "olives noires",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "79302965",
+        "name": "cumin moulu",
+        "unit": "5033bb1a"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "d1de2ce3",
+        "name": "origan s\u00e9ch\u00e9",
+        "unit": "5033bb1a"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "b2dc56f9",
+        "name": "tabasco",
+        "unit": "28ca83f5"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "f73760d9",
+        "name": "piment d'Espelette",
+        "unit": "5033bb1a"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "b4687b36",
+        "name": "pimnent de Cayenne",
+        "unit": "5033bb1a"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "1b743c47",
+        "name": "riz",
+        "unit": "ffa29d26"
     }
 ]

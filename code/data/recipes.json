@@ -1,2 +1,78 @@
 [
+    {
+        "count": 8,
+        "gid": "870f8cb3",
+        "ingredients": [
+            {
+                "gid": "0f0e83da",
+                "quantity": 500.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 3.0
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 2.0
+            },
+            {
+                "gid": "128be540",
+                "quantity": 1.0
+            },
+            {
+                "gid": "21325467",
+                "quantity": 1.0
+            },
+            {
+                "gid": "a8638255",
+                "quantity": 600.0
+            },
+            {
+                "gid": "03ea9006",
+                "quantity": 800.0
+            },
+            {
+                "gid": "9007c83c",
+                "quantity": 20.0
+            },
+            {
+                "gid": "d553a4e6",
+                "quantity": 2.0
+            },
+            {
+                "gid": "eca9b6d5",
+                "quantity": 2.0
+            },
+            {
+                "gid": "95fdef58",
+                "quantity": 3.0
+            },
+            {
+                "gid": "d7df33bf",
+                "quantity": 70.0
+            },
+            {
+                "gid": "eb76b90e",
+                "quantity": 125.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 100.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 125.0
+            },
+            {
+                "gid": "0f6a3748",
+                "quantity": 1.0
+            },
+            {
+                "gid": "44651bb5",
+                "quantity": 1.0
+            }
+        ],
+        "name": "lasagnes",
+        "reference": "marmiton.org"
+    }
 ]
