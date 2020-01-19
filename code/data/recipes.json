@@ -73,6 +73,62 @@
             }
         ],
         "name": "lasagnes",
-        "reference": "marmiton.org"
+        "reference": "https://www.marmiton.org/recettes/recette_lasagnes-a-la-bolognaise_18215.aspx"
+    },
+    {
+        "count": 4,
+        "gid": "06699955",
+        "ingredients": [
+            {
+                "gid": "155f3d75",
+                "quantity": 50.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 2.0
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 2.0
+            },
+            {
+                "gid": "a8638255",
+                "quantity": 500.0
+            },
+            {
+                "gid": "f73760d9",
+                "quantity": 1.0
+            },
+            {
+                "gid": "b4687b36",
+                "quantity": 1.0
+            },
+            {
+                "gid": "79302965",
+                "quantity": 2.0
+            },
+            {
+                "gid": "7bd62110",
+                "quantity": 65.0
+            },
+            {
+                "gid": "13437721",
+                "quantity": 500.0
+            },
+            {
+                "gid": "46e1f1b6",
+                "quantity": 30.0
+            },
+            {
+                "gid": "1b743c47",
+                "quantity": 300.0
+            },
+            {
+                "gid": "446f7fa6",
+                "quantity": 1.0
+            }
+        ],
+        "name": "chili con carne",
+        "reference": "armitonm"
     }
 ]
