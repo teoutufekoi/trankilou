@@ -1,14 +1,2 @@
 [
-    {
-        "count": 4,
-        "gid": "9ddbb0a0",
-        "ingredients": [
-            {
-                "gid": "93c1aa4a",
-                "quantity": 4.0
-            }
-        ],
-        "name": "lasagnes",
-        "reference": "marmiton"
-    }
 ]

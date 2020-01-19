@@ -28,5 +28,10 @@
         "gid": "6429c27c",
         "name": "litres",
         "short": "l"
+    },
+    {
+        "gid": "ec7b99e0",
+        "name": "pinc\u00e9e",
+        "short": "pinc"
     }
 ]
