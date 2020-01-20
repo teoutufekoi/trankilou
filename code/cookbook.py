@@ -23,6 +23,7 @@ class Unit:
     def from_json(cls, data):
         return cls(**data)
 
+
 class Ingredient:
 
     def __init__(self, gid: object, name: object, domain: object, unit: object):
