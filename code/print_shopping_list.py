@@ -11,23 +11,40 @@ def list_shopping_lists():
         print("- " + str(i) + " - " + str(shopping_lists[i].name))
 
 
-def add_ingredient(key, ingredients):
-    print("Adding the ingredient XXX")
-
-
-def get_ingredients_from_recipe(original_recipe, actual_count):
+def get_ingredients_from_recipe(original_recipe, ratio):
 
     # Init the dict of ingredients
     ingredients = {}
 
     # Fill the dict of ingredients
-    print("Ingredients in the recipe " + original_recipe.name + ":")
+    print("Adding ingredients from recipe '" + original_recipe.name + "' (ratio " + str(ratio) + ")")
     for ingredient in original_recipe.ingredients:
         gid = ingredient["gid"]
-        quantity = ingredient["quantity"]
+        quantity = ingredient["quantity"] * ratio
+        ingredient = get_ingredient(gid, all_ingredients)
+        unit = get_unit(ingredient.unit, all_units)
+        domain = get_domain(ingredient.domain, all_domains)
         ingredients[gid] = {}
         ingredients[gid]["quantity"] = quantity
-        print(str(ingredients[gid]))
+        ingredients[gid]["name"] = ingredient.name
+        ingredients[gid]["unit"] = unit
+        ingredients[gid]["domain"] = domain.name
+        ingredients[gid]["recipes"] = [original_recipe.name]
+
+    return ingredients
+
+
+def add_new_ingredients(new_ingredients, ingredients):
+    # Add new ingredients one after each other
+    for new_ingredient in new_ingredients:
+        if new_ingredient in ingredients:
+            # Sum the ingredient quantities
+            ingredients[new_ingredient]["quantity"] += new_ingredients[new_ingredient]["quantity"]
+            # Append the recipe to the recipe list for the current ingredient
+            ingredients[new_ingredient]["recipes"].append(new_ingredients[new_ingredient]["recipes"][0])
+        else:
+            # Add ingredient in the dict of ingredients
+            ingredients[new_ingredient] = new_ingredients[new_ingredient]
 
     return ingredients
 
@@ -39,8 +56,10 @@ def get_ingredients_from_recipes(recipes):
 
     for recipe in recipes:
         original_recipe = get_recipe(recipe.gid, all_recipes)
-        new_ingredients = get_ingredients_from_recipe(original_recipe, recipe.count)
-        ingredients.update(new_ingredients)
+        ratio = recipe.count / original_recipe.count
+        new_ingredients = get_ingredients_from_recipe(original_recipe, ratio)
+        ingredients = add_new_ingredients(new_ingredients, ingredients)
+
     return ingredients
 
 
@@ -48,10 +67,13 @@ def print_shopping_list(shopping_list):
     # Get the list of ingredients
     ingredients = get_ingredients_from_recipes(shopping_list.recipes)
 
-    # Print the ingredients
-    print("List of ingredients the selected shopping list:")
-    for ingredient in ingredients:
-        print(ingredient)
+    # Print the ingredients for each domain
+    for domain in all_domains:
+        # sublist = filterTheDict(ingredients, lambda ingredient: ingredients[ingredient]["domain"] == domain)
+        sublist = dict(filter(lambda elem: elem[1]["domain"] == domain.name, ingredients.items()))
+        print("------ " + domain.name + " ------")
+        for i in sublist:
+            print(str(sublist[i]))
 
 
 def get_shopping_list_input_key():
