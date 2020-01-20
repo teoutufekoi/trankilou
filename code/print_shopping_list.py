@@ -1,9 +1,11 @@
 import click
 import binascii
 import os
+from datetime import datetime
 from cookbook import *
 from database import *
 from helpers import *
+
 
 
 def list_shopping_lists():
@@ -67,13 +69,27 @@ def print_shopping_list(shopping_list):
     # Get the list of ingredients
     ingredients = get_ingredients_from_recipes(shopping_list.recipes)
 
-    # Print the ingredients for each domain
+    # Build the string to be printed in the output file
+    s = shopping_list.name + "\n"
+    s += str(datetime.now().strftime("%d/%m/%Y %H:%M:%S")) + "\n"
+
+    # Update the string with the list of recipes included
+    for r in shopping_list.recipes:
+        original_recipe = get_recipe(r.gid, all_recipes)
+        s += original_recipe.name + " (" + str(int(r.count)) + " pp)" +"\n"
+
+    # Update the string with the ingredients for each domain
     for domain in all_domains:
-        # sublist = filterTheDict(ingredients, lambda ingredient: ingredients[ingredient]["domain"] == domain)
         sublist = dict(filter(lambda elem: elem[1]["domain"] == domain.name, ingredients.items()))
-        print("------ " + domain.name + " ------")
+        s += "\n------ " + domain.name + " ------\n\n"
         for i in sublist:
-            print(str(sublist[i]))
+            ingredient = sublist[i]
+            s += ingredient["name"] + " - " + str(ingredient["quantity"]) + " " + ingredient["unit"] + "\n"
+
+    # Print to output file
+    text_file = open("out.txt", "w")
+    text_file.write(s)
+    text_file.close()
 
 
 def get_shopping_list_input_key():
