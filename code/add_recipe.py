@@ -49,10 +49,10 @@ def add_ingredient(ingredients):
     while True:
         action = click.prompt(click.style("Select the quantity",
                                           fg="yellow", bold=True))
-        if action.isdigit():
+        try:
             ingredient["quantity"] = float(action)
             break
-        else:
+        except ValueError:
             click.secho("Please enter a number.", fg="red", bold=True)
 
     # Add the ingredient to the list
