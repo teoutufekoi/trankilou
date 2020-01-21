@@ -84,7 +84,7 @@ def print_shopping_list(shopping_list):
         s += "\n------ " + domain.name + " ------\n\n"
         for i in sublist:
             ingredient = sublist[i]
-            s += ingredient["name"] + " - " + str(ingredient["quantity"]) + " " + ingredient["unit"] + "\n"
+            s += ingredient["name"] + " - " + str(round(ingredient["quantity"],1)) + " " + ingredient["unit"] + "\n"
 
     # Print to output file
     text_file = open("out.txt", "w")
