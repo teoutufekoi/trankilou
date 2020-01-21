@@ -130,5 +130,185 @@
         ],
         "name": "chili con carne",
         "reference": "https://www.marmiton.org/recettes/recette_chili-con-carne-facile_15415.aspx"
+    },
+    {
+        "count": 2,
+        "gid": "5e533dda",
+        "ingredients": [
+            {
+                "gid": "a401b9cd",
+                "quantity": 1.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 2.0
+            },
+            {
+                "gid": "68506f21",
+                "quantity": 1.0
+            },
+            {
+                "gid": "378beb1b",
+                "quantity": 1.0
+            },
+            {
+                "gid": "d7df33bf",
+                "quantity": 25.0
+            },
+            {
+                "gid": "ed723125",
+                "quantity": 100.0
+            }
+        ],
+        "name": "aurbergines farcies",
+        "reference": "marmiton"
+    },
+    {
+        "count": 4,
+        "gid": "8c42b647",
+        "ingredients": [
+            {
+                "gid": "bebda03e",
+                "quantity": 4.0
+            },
+            {
+                "gid": "b68fbdee",
+                "quantity": 8.0
+            },
+            {
+                "gid": "97685417",
+                "quantity": 4.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 50.0
+            },
+            {
+                "gid": "aebd898b",
+                "quantity": 4.0
+            },
+            {
+                "gid": "378beb1b",
+                "quantity": 1.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 20.0
+            }
+        ],
+        "name": "cordon bleu",
+        "reference": "marmiton"
+    },
+    {
+        "count": 6,
+        "gid": "0a97841e",
+        "ingredients": [
+            {
+                "gid": "05987082",
+                "quantity": 1.0
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 2.0
+            },
+            {
+                "gid": "8041f73b",
+                "quantity": 30.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 100.0
+            },
+            {
+                "gid": "0f6a3748",
+                "quantity": 1.0
+            },
+            {
+                "gid": "95fdef58",
+                "quantity": 2.0
+            },
+            {
+                "gid": "eb76b90e",
+                "quantity": 50.0
+            }
+        ],
+        "name": "gratin dauphinois",
+        "reference": "marmiton"
+    },
+    {
+        "count": 8,
+        "gid": "a165280e",
+        "ingredients": [
+            {
+                "gid": "df80100e",
+                "quantity": 1.5
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 1.0
+            },
+            {
+                "gid": "eb76b90e",
+                "quantity": 80.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 80.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 40.0
+            },
+            {
+                "gid": "95fdef58",
+                "quantity": 2.0
+            },
+            {
+                "gid": "0f6a3748",
+                "quantity": 0.5
+            }
+        ],
+        "name": "gratin de bettes",
+        "reference": "marmiton"
+    },
+    {
+        "count": 4,
+        "gid": "c2f3d95a",
+        "ingredients": [
+            {
+                "gid": "da537d82",
+                "quantity": 4.0
+            },
+            {
+                "gid": "744626fb",
+                "quantity": 400.0
+            },
+            {
+                "gid": "0f0e83da",
+                "quantity": 500.0
+            },
+            {
+                "gid": "d7df33bf",
+                "quantity": 60.0
+            },
+            {
+                "gid": "95fdef58",
+                "quantity": 2.0
+            },
+            {
+                "gid": "0f6a3748",
+                "quantity": 0.5
+            },
+            {
+                "gid": "00738994",
+                "quantity": 40.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 40.0
+            }
+        ],
+        "name": "lasagne aux courgettes et au ch\u00e8vre",
+        "reference": "marmiton"
     }
 ]
