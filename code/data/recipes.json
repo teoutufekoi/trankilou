@@ -310,5 +310,229 @@
         ],
         "name": "lasagne aux courgettes et au ch\u00e8vre",
         "reference": "https://www.marmiton.org/recettes/recette_lasagnes-aux-courgettes-et-au-chevre_22798.aspx"
+    },
+    {
+        "count": 4,
+        "gid": "6fd19c58",
+        "ingredients": [
+            {
+                "gid": "d8658cdd",
+                "quantity": 1.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 1.0
+            },
+            {
+                "gid": "3de6f2a0",
+                "quantity": 200.0
+            },
+            {
+                "gid": "3812c9e0",
+                "quantity": 10.0
+            }
+        ],
+        "name": "choux vert brais\u00e9",
+        "reference": "https://www.marmiton.org/recettes/recette_choux-vert-braise_81394.aspx"
+    },
+    {
+        "count": 6,
+        "gid": "92c154c3",
+        "ingredients": [
+            {
+                "gid": "65806a93",
+                "quantity": 1.0
+            },
+            {
+                "gid": "05987082",
+                "quantity": 0.2
+            },
+            {
+                "gid": "e2344151",
+                "quantity": 30.0
+            },
+            {
+                "gid": "d1de2ce3",
+                "quantity": 1.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 50.0
+            },
+            {
+                "gid": "10612854",
+                "quantity": 3.0
+            }
+        ],
+        "name": "velout\u00e9 de chou fleur",
+        "reference": "https://www.marmiton.org/recettes/recette_veloute-de-chou-fleur_28185.aspx"
+    },
+    {
+        "count": 6,
+        "gid": "5f458f95",
+        "ingredients": [
+            {
+                "gid": "d8658cdd",
+                "quantity": 1.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 1.0
+            },
+            {
+                "gid": "42b6d4a6",
+                "quantity": 2.0
+            },
+            {
+                "gid": "3de6f2a0",
+                "quantity": 100.0
+            },
+            {
+                "gid": "c0667255",
+                "quantity": 1.0
+            },
+            {
+                "gid": "d553a4e6",
+                "quantity": 2.0
+            }
+        ],
+        "name": "soupe au choux",
+        "reference": "https://www.marmiton.org/recettes/recette_soupe-au-choux_19123.aspx#d827-p2"
+    },
+    {
+        "count": 4,
+        "gid": "3ee41c23",
+        "ingredients": [
+            {
+                "gid": "881cd658",
+                "quantity": 1.0
+            },
+            {
+                "gid": "05987082",
+                "quantity": 0.6
+            },
+            {
+                "gid": "d7df33bf",
+                "quantity": 75.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 40.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 40.0
+            },
+            {
+                "gid": "0f6a3748",
+                "quantity": 0.6
+            }
+        ],
+        "name": "gratin de chou-fleur",
+        "reference": "https://www.marmiton.org/recettes/recette_gratin-patates-chou-fleur_19155.aspx"
+    },
+    {
+        "count": 4,
+        "gid": "1f373d0f",
+        "ingredients": [
+            {
+                "gid": "575c4928",
+                "quantity": 1.0
+            },
+            {
+                "gid": "1683f457",
+                "quantity": 2.0
+            }
+        ],
+        "name": "chou-rave po\u00eal\u00e9",
+        "reference": "https://www.marmiton.org/recettes/recette_chou-rave-poele_34602.aspx"
+    },
+    {
+        "count": 6,
+        "gid": "072778da",
+        "ingredients": [
+            {
+                "gid": "d8658cdd",
+                "quantity": 1.0
+            },
+            {
+                "gid": "21325467",
+                "quantity": 4.0
+            },
+            {
+                "gid": "05987082",
+                "quantity": 0.5
+            },
+            {
+                "gid": "e38e0c4f",
+                "quantity": 2.0
+            },
+            {
+                "gid": "8cdc9488",
+                "quantity": 3.0
+            },
+            {
+                "gid": "44651bb5",
+                "quantity": 2.0
+            },
+            {
+                "gid": "d553a4e6",
+                "quantity": 2.0
+            },
+            {
+                "gid": "a842a0dd",
+                "quantity": 60.0
+            }
+        ],
+        "name": "soupe au chou et saucisse",
+        "reference": "marmiton"
+    },
+    {
+        "count": 5,
+        "gid": "15846b83",
+        "ingredients": [
+            {
+                "gid": "881cd658",
+                "quantity": 0.5
+            },
+            {
+                "gid": "21325467",
+                "quantity": 3.0
+            },
+            {
+                "gid": "a842a0dd",
+                "quantity": 30.0
+            },
+            {
+                "gid": "79302965",
+                "quantity": 1.0
+            }
+        ],
+        "name": "soupe au chou-fleur, carottes et cumin",
+        "reference": "https://www.marmiton.org/recettes/recette_soupe-au-chou-fleur-carotte-et-cumin_42507.aspx"
+    },
+    {
+        "count": 4,
+        "gid": "f4b6b14d",
+        "ingredients": [
+            {
+                "gid": "881cd658",
+                "quantity": 0.5
+            },
+            {
+                "gid": "e5b0251f",
+                "quantity": 7.0
+            },
+            {
+                "gid": "e2344151",
+                "quantity": 60.0
+            },
+            {
+                "gid": "8d636b1f",
+                "quantity": 25.0
+            }
+        ],
+        "name": "gaspacho au chou-fleur",
+        "reference": "https://www.marmiton.org/recettes/recette_gaspacho-au-chou-fleur_49498.aspx"
     }
 ]

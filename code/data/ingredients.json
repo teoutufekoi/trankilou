@@ -230,7 +230,7 @@
     {
         "domain": "39b88b46",
         "gid": "8041f73b",
-        "name": "cr\u00e8me",
+        "name": "cr\u00e8me liquide",
         "unit": "17c4cd83"
     },
     {
@@ -250,5 +250,101 @@
         "gid": "744626fb",
         "name": "fromage frais de ch\u00e8vre",
         "unit": "ffa29d26"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "d8658cdd",
+        "name": "chou vert",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "651fbb34",
+        "gid": "3de6f2a0",
+        "name": "lardons fum\u00e9s",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "575e78ac",
+        "gid": "3812c9e0",
+        "name": "vin blanc de cuisine",
+        "unit": "17c4cd83"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "65806a93",
+        "name": "chou fleur",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "e2344151",
+        "name": "bouillon de volaille",
+        "unit": "17c4cd83"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "10612854",
+        "name": "cr\u00e8me fra\u00eeche",
+        "unit": "17c4cd83"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "42b6d4a6",
+        "name": "clou de girofle",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "c0667255",
+        "name": "gros sel",
+        "unit": "d7b90c20"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "881cd658",
+        "name": "chou-fleur",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "575c4928",
+        "name": "chou-rave",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "1683f457",
+        "name": "branche de persil",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "e38e0c4f",
+        "name": "navet",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "651fbb34",
+        "gid": "8cdc9488",
+        "name": "saucisse fum\u00e9e",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "a842a0dd",
+        "name": "bouillon de l\u00e9gumes",
+        "unit": "17c4cd83"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "e5b0251f",
+        "name": "\u00e9chalote",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "39b88b46",
+        "gid": "8d636b1f",
+        "name": "cr\u00e8me demi-\u00e9paisse",
+        "unit": "17c4cd83"
     }
 ]
