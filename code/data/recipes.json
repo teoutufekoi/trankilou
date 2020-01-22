@@ -161,7 +161,7 @@
             }
         ],
         "name": "aurbergines farcies",
-        "reference": "marmiton"
+        "reference": "https://www.marmiton.org/recettes/recette_aubergines-farcies-aux-legumes-ou-mixte_17955.aspx"
     },
     {
         "count": 4,
@@ -197,7 +197,7 @@
             }
         ],
         "name": "cordon bleu",
-        "reference": "marmiton"
+        "reference": "https://www.marmiton.org/recettes/recette-photo_cordon-bleu_27731.aspx"
     },
     {
         "count": 6,
@@ -233,7 +233,7 @@
             }
         ],
         "name": "gratin dauphinois",
-        "reference": "marmiton"
+        "reference": "https://www.marmiton.org/recettes/recette_gratin-dauphinois_13809.aspx"
     },
     {
         "count": 8,
@@ -269,7 +269,7 @@
             }
         ],
         "name": "gratin de bettes",
-        "reference": "marmiton"
+        "reference": "https://www.marmiton.org/recettes/recette_gratin-de-bettes-a-la-parmesane_29999.aspx"
     },
     {
         "count": 4,
@@ -309,6 +309,6 @@
             }
         ],
         "name": "lasagne aux courgettes et au ch\u00e8vre",
-        "reference": "marmiton"
+        "reference": "https://www.marmiton.org/recettes/recette_lasagnes-aux-courgettes-et-au-chevre_22798.aspx"
     }
 ]
