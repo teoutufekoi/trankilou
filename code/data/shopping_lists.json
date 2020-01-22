@@ -1,21 +1,7 @@
 [
     {
-        "gid": "1f39c299",
-        "name": "test",
-        "recipes": [
-            {
-                "count": 6.0,
-                "gid": "870f8cb3"
-            },
-            {
-                "count": 6.0,
-                "gid": "06699955"
-            }
-        ]
-    },
-    {
-        "gid": "63f167d6",
-        "name": "2020-week-4",
+        "gid": "9677b526",
+        "name": "week4 2020",
         "recipes": [
             {
                 "count": 8.0,
@@ -27,23 +13,23 @@
             },
             {
                 "count": 8.0,
-                "gid": "5e533dda"
-            },
-            {
-                "count": 4.0,
                 "gid": "8c42b647"
             },
             {
                 "count": 8.0,
-                "gid": "0a97841e"
+                "gid": "3ee41c23"
             },
             {
                 "count": 8.0,
-                "gid": "a165280e"
+                "gid": "1f373d0f"
             },
             {
                 "count": 8.0,
-                "gid": "c2f3d95a"
+                "gid": "072778da"
+            },
+            {
+                "count": 8.0,
+                "gid": "15846b83"
             }
         ]
     }
