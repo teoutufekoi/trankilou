@@ -534,5 +534,173 @@
         ],
         "name": "gaspacho au chou-fleur",
         "reference": "https://www.marmiton.org/recettes/recette_gaspacho-au-chou-fleur_49498.aspx"
+    },
+    {
+        "count": 6,
+        "gid": "fe20cddb",
+        "ingredients": [
+            {
+                "gid": "202e5b41",
+                "quantity": 6.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 40.0
+            },
+            {
+                "gid": "11d36976",
+                "quantity": 1.5
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 7.0
+            },
+            {
+                "gid": "cdff464f",
+                "quantity": 25.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 30.0
+            },
+            {
+                "gid": "e214f68f",
+                "quantity": 1.0
+            },
+            {
+                "gid": "d553a4e6",
+                "quantity": 2.0
+            },
+            {
+                "gid": "44651bb5",
+                "quantity": 3.0
+            },
+            {
+                "gid": "1683f457",
+                "quantity": 4.0
+            }
+        ],
+        "name": "carbonade flamande",
+        "reference": "https://www.marmiton.org/recettes/recette_carbonnade-flamande_169399.aspx"
+    },
+    {
+        "count": 4,
+        "gid": "64330ae1",
+        "ingredients": [
+            {
+                "gid": "99338111",
+                "quantity": 1.0
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 2.0
+            },
+            {
+                "gid": "1683f457",
+                "quantity": 3.0
+            }
+        ],
+        "name": "c\u00e9leri saut\u00e9",
+        "reference": "https://www.marmiton.org/recettes/recette_celeri-saute_33451.aspx"
+    },
+    {
+        "count": 3,
+        "gid": "23a48aaf",
+        "ingredients": [
+            {
+                "gid": "378beb1b",
+                "quantity": 2.0
+            },
+            {
+                "gid": "b0940177",
+                "quantity": 2.0
+            },
+            {
+                "gid": "10612854",
+                "quantity": 15.0
+            },
+            {
+                "gid": "d7df33bf",
+                "quantity": 100.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 1.0
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 2.0
+            },
+            {
+                "gid": "95fdef58",
+                "quantity": 1.0
+            },
+            {
+                "gid": "d1cde59b",
+                "quantity": 1.0
+            },
+            {
+                "gid": "aebd898b",
+                "quantity": 3.0
+            }
+        ],
+        "name": "gratin de brocolis",
+        "reference": "https://www.marmiton.org/recettes/recette_gratin-de-brocolis-facile_18753.aspx"
+    },
+    {
+        "count": 6,
+        "gid": "ddb719cd",
+        "ingredients": [
+            {
+                "gid": "51286a9f",
+                "quantity": 6.0
+            },
+            {
+                "gid": "ee8cc170",
+                "quantity": 350.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 2.0
+            },
+            {
+                "gid": "21325467",
+                "quantity": 1.0
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 2.0
+            },
+            {
+                "gid": "41623db2",
+                "quantity": 1.0
+            },
+            {
+                "gid": "128be540",
+                "quantity": 1.0
+            },
+            {
+                "gid": "1683f457",
+                "quantity": 5.0
+            },
+            {
+                "gid": "d553a4e6",
+                "quantity": 1.0
+            },
+            {
+                "gid": "3812c9e0",
+                "quantity": 25.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 24.0
+            },
+            {
+                "gid": "e2344151",
+                "quantity": 100.0
+            }
+        ],
+        "name": "osso bucco milanaise",
+        "reference": "https://www.marmiton.org/recettes/recette_osso-bucco-milanaise_26684.aspx"
     }
 ]

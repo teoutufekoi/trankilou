@@ -346,5 +346,71 @@
         "gid": "8d636b1f",
         "name": "cr\u00e8me demi-\u00e9paisse",
         "unit": "17c4cd83"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "202e5b41",
+        "name": "tranche de pain d'\u00e9pice",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "651fbb34",
+        "gid": "11d36976",
+        "name": "g\u00eete de boeuf",
+        "unit": "e8a9ef63"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "cdff464f",
+        "name": "sucre roux",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "575e78ac",
+        "gid": "e214f68f",
+        "name": "bi\u00e8re",
+        "unit": "6429c27c"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "168e238d",
+        "name": "moutarde",
+        "unit": "d7b90c20"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "99338111",
+        "name": "c\u00e9leri rave",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "d1cde59b",
+        "name": "brocoli",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "651fbb34",
+        "gid": "b0940177",
+        "name": "tranche de jambon",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "651fbb34",
+        "gid": "51286a9f",
+        "name": "tranche de jarret de veau",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "ee8cc170",
+        "name": "pulpe de tomate",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "41623db2",
+        "name": "citron",
+        "unit": "590c07ad"
     }
 ]
