@@ -32,5 +32,31 @@
                 "gid": "15846b83"
             }
         ]
+    },
+    {
+        "gid": "fffad819",
+        "name": "lisa est l\u00e0",
+        "recipes": [
+            {
+                "count": 8.0,
+                "gid": "d6c2d0c4"
+            },
+            {
+                "count": 8.0,
+                "gid": "6bf156c5"
+            },
+            {
+                "count": 8.0,
+                "gid": "870f8cb3"
+            },
+            {
+                "count": 8.0,
+                "gid": "fb459431"
+            },
+            {
+                "count": 8.0,
+                "gid": "15c01c4d"
+            }
+        ]
     }
 ]
