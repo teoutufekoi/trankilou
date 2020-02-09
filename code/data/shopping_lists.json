@@ -58,5 +58,35 @@
                 "gid": "15c01c4d"
             }
         ]
+    },
+    {
+        "gid": "1e4175f3",
+        "name": "pape et manou sont l\u00e0",
+        "recipes": [
+            {
+                "count": 8.0,
+                "gid": "5e533dda"
+            },
+            {
+                "count": 8.0,
+                "gid": "ddb719cd"
+            },
+            {
+                "count": 8.0,
+                "gid": "072778da"
+            },
+            {
+                "count": 8.0,
+                "gid": "64330ae1"
+            },
+            {
+                "count": 8.0,
+                "gid": "8c42b647"
+            },
+            {
+                "count": 8.0,
+                "gid": "c2f3d95a"
+            }
+        ]
     }
 ]
