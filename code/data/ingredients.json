@@ -502,5 +502,41 @@
         "gid": "9dc9e85d",
         "name": "branche d'aneth",
         "unit": "590c07ad"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "74c06082",
+        "name": "pommes",
+        "unit": "e8a9ef63"
+    },
+    {
+        "domain": "575e78ac",
+        "gid": "f3e1bda2",
+        "name": "jus de pomme",
+        "unit": "6429c27c"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "e72c3c0c",
+        "name": "poudre de cannelle",
+        "unit": "5033bb1a"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "38f838de",
+        "name": "p\u00e2tes - macaroni",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "39b88b46",
+        "gid": "5e828b3b",
+        "name": "fromage d'alpage",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "21af4d9f",
+        "name": "sucre",
+        "unit": "ffa29d26"
     }
 ]

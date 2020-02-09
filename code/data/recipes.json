@@ -998,5 +998,53 @@
         ],
         "name": "tarte au saumon et brocoli",
         "reference": "https://www.marmiton.org/recettes/recette_tarte-saumon-brocolis_21443.aspx"
+    },
+    {
+        "count": 8,
+        "gid": "f93aa701",
+        "ingredients": [
+            {
+                "gid": "74c06082",
+                "quantity": 1.2
+            },
+            {
+                "gid": "f3e1bda2",
+                "quantity": 0.2
+            },
+            {
+                "gid": "21af4d9f",
+                "quantity": 75.0
+            },
+            {
+                "gid": "e72c3c0c",
+                "quantity": 1.0
+            },
+            {
+                "gid": "05987082",
+                "quantity": 1.2
+            },
+            {
+                "gid": "38f838de",
+                "quantity": 500.0
+            },
+            {
+                "gid": "5e828b3b",
+                "quantity": 500.0
+            },
+            {
+                "gid": "8d636b1f",
+                "quantity": 20.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 4.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 40.0
+            }
+        ],
+        "name": "Macaroni du chalet et compote de pommes",
+        "reference": "https://www.swissmilk.ch/fr/recettes-idees/recettes/LM200309_57_A/macaroni-du-chalet-et-compote-de-pommes/"
     }
 ]
