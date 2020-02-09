@@ -3,6 +3,7 @@ import binascii
 import os
 from cookbook import *
 from database import *
+from helpers import *
 
 
 def generate_gid():
@@ -12,7 +13,14 @@ def generate_gid():
 
 
 def list_ingredients():
-    print('\n'.join(str(i.domain) + " - " + str(i.name) + " (" + str(i.unit) + ")" for i in ingredients))
+    # Update the string with the ingredients for each domain
+    for domain in domains:
+        print("======> domain = " + domain.name)
+        for ingredient in ingredients:
+            domain_ingredient = get_domain(ingredient.domain, domains).name
+            unit_ingredient = get_unit(ingredient.unit, units)
+            if domain_ingredient == domain.name:
+                print(ingredient.name + " (" + unit_ingredient + ")" )
 
 
 def record_ingredients():
