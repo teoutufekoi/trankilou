@@ -7,7 +7,8 @@ from helpers import *
 
 
 def list_shopping_lists():
-    print('\n'.join(str(i.name) for i in shopping_lists))
+    for i in range(len(all_recipes)):
+        print(all_recipes[i].name + " - " + all_recipes[i].reference)
 
 
 def record_shopping_lists():

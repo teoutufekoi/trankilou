@@ -12,7 +12,8 @@ def generate_gid():
 
 
 def list_recipes():
-    print('\n'.join(str(i.name) for i in recipes))
+    for i in range(len(recipes)):
+        print(recipes[i].name)
 
 
 def record_recipes():
