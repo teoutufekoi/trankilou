@@ -1046,5 +1046,77 @@
         ],
         "name": "Macaroni du chalet et compote de pommes",
         "reference": "https://www.swissmilk.ch/fr/recettes-idees/recettes/LM200309_57_A/macaroni-du-chalet-et-compote-de-pommes/"
+    },
+    {
+        "count": 6,
+        "gid": "83ce10e0",
+        "ingredients": [
+            {
+                "gid": "c21b41e3",
+                "quantity": 150.0
+            },
+            {
+                "gid": "a8638255",
+                "quantity": 300.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 12.0
+            },
+            {
+                "gid": "3812c9e0",
+                "quantity": 10.0
+            },
+            {
+                "gid": "44651bb5",
+                "quantity": 1.0
+            },
+            {
+                "gid": "68506f21",
+                "quantity": 1.0
+            },
+            {
+                "gid": "1683f457",
+                "quantity": 2.0
+            },
+            {
+                "gid": "25d0262c",
+                "quantity": 50.0
+            },
+            {
+                "gid": "21325467",
+                "quantity": 1.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 1.0
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 1.0
+            },
+            {
+                "gid": "05987082",
+                "quantity": 1.0
+            },
+            {
+                "gid": "0f6a3748",
+                "quantity": 0.25
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 60.0
+            },
+            {
+                "gid": "378beb1b",
+                "quantity": 1.0
+            },
+            {
+                "gid": "d7df33bf",
+                "quantity": 50.0
+            }
+        ],
+        "name": "hachis parmentier",
+        "reference": "carnet retrouv\u00e9 p. 141"
     }
 ]

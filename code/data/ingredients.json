@@ -538,5 +538,17 @@
         "gid": "21af4d9f",
         "name": "sucre",
         "unit": "ffa29d26"
+    },
+    {
+        "domain": "651fbb34",
+        "gid": "c21b41e3",
+        "name": "viande de porc hach\u00e9e",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "651fbb34",
+        "gid": "25d0262c",
+        "name": "poitrine fum\u00e9e",
+        "unit": "ffa29d26"
     }
 ]
