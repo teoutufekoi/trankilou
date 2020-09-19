@@ -172,5 +172,23 @@
                 "gid": "06699955"
             }
         ]
+    },
+    {
+        "gid": "09991ea8",
+        "name": "Entre mecs",
+        "recipes": [
+            {
+                "count": 12.0,
+                "gid": "167c5634"
+            },
+            {
+                "count": 2.0,
+                "gid": "1add9d1f"
+            },
+            {
+                "count": 8.0,
+                "gid": "870f8cb3"
+            }
+        ]
     }
 ]

@@ -80,7 +80,7 @@
     {
         "domain": "17b14bbf",
         "gid": "00738994",
-        "name": "farine",
+        "name": "farine T45",
         "unit": "ffa29d26"
     },
     {
@@ -550,5 +550,65 @@
         "gid": "25d0262c",
         "name": "poitrine fum\u00e9e",
         "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "2113c498",
+        "name": "levure de boulanger en poudre",
+        "unit": "5033bb1a"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "00b12252",
+        "name": "farine T55",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "195d15f5",
+        "name": "piment",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "7fd1f757",
+        "name": "tomates concass\u00e9es",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "d8450510",
+        "name": "vinaigre de vin rougr",
+        "unit": "17c4cd83"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "13dde01c",
+        "name": "capres",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "4ed61976",
+        "name": "cornichons",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "39b88b46",
+        "gid": "05339a05",
+        "name": "tranche de cheddar",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "c3afc452",
+        "name": "pain \u00e0 burger",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "87db1144",
+        "name": "salade",
+        "unit": "590c07ad"
     }
 ]

@@ -1118,5 +1118,117 @@
         ],
         "name": "hachis parmentier",
         "reference": "carnet retrouv\u00e9 p. 141"
+    },
+    {
+        "count": 12,
+        "gid": "167c5634",
+        "ingredients": [
+            {
+                "gid": "2113c498",
+                "quantity": 2.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 250.0
+            },
+            {
+                "gid": "00b12252",
+                "quantity": 190.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 40.0
+            },
+            {
+                "gid": "378beb1b",
+                "quantity": 1.0
+            },
+            {
+                "gid": "eb76b90e",
+                "quantity": 10.0
+            }
+        ],
+        "name": "Pains pour burgeeess ",
+        "reference": "500 pains (p234)"
+    },
+    {
+        "count": 8,
+        "gid": "baa39cef",
+        "ingredients": [
+            {
+                "gid": "05987082",
+                "quantity": 1.6
+            }
+        ],
+        "name": "Frites",
+        "reference": "Burgers et mini burgers (57)"
+    },
+    {
+        "count": 2,
+        "gid": "1add9d1f",
+        "ingredients": [
+            {
+                "gid": "0a34c760",
+                "quantity": 1.0
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 1.0
+            },
+            {
+                "gid": "195d15f5",
+                "quantity": 1.0
+            },
+            {
+                "gid": "7fd1f757",
+                "quantity": 800.0
+            },
+            {
+                "gid": "d8450510",
+                "quantity": 20.0
+            },
+            {
+                "gid": "21af4d9f",
+                "quantity": 200.0
+            },
+            {
+                "gid": "13dde01c",
+                "quantity": 30.0
+            },
+            {
+                "gid": "4ed61976",
+                "quantity": 4.0
+            },
+            {
+                "gid": "6c0ac3e9",
+                "quantity": 2.0
+            },
+            {
+                "gid": "a8638255",
+                "quantity": 340.0
+            },
+            {
+                "gid": "b68fbdee",
+                "quantity": 2.0
+            },
+            {
+                "gid": "05339a05",
+                "quantity": 4.0
+            },
+            {
+                "gid": "4ed61976",
+                "quantity": 2.0
+            },
+            {
+                "gid": "87db1144",
+                "quantity": 1.0
+            },
+            {
+                "gid": "c3afc452",
+                "quantity": 2.0
+            }
+        ],
+        "name": "burgeeeess",
+        "reference": "burgers p. 10"
     }
 ]
