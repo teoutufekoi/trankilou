@@ -28,6 +28,38 @@ def get_unit(key):
         return unit.short
 
 
+def add_labels(labels):
+
+    # Select the labels
+    while True:
+
+        # Ask for the label using the list of existing labels
+        for i in range(len(all_labels)):
+            # Get to know if the label is currently associated with the recipe
+            marker = "*" if all_labels[i].gid in labels else " "
+
+            # Print the label accordingly
+            print(marker + " " + str(all_labels[i].name) + " (" + str(i) + ") ")
+
+        # Capture the selection
+        action = click.prompt(click.style("Select one or several labels using coma for separation. Press 'q'to quit.",
+                                          fg="yellow", bold=True))
+
+        # Make sure we can quit the label selection
+        if action == "q":
+            break
+
+        for raw_label_number in action.split(","):
+            label_number = raw_label_number.strip()
+            if not label_number.isdigit() or float(label_number) >= len(all_labels):
+                click.secho("Please select labels using proper indices separated by a coma.", fg="red", bold=True)
+                break
+            label_gid = all_labels[int(label_number)].gid
+
+            # Add the label to the recipe
+            labels.append(label_gid)
+
+
 def add_ingredient(ingredients):
     # Initiate the ingredient structure
     ingredient = {}
@@ -67,6 +99,9 @@ def add_recipe():
 
     # Initiate the list of ingredients for this specific recipe
     ingredients = []
+
+    # Initiate the list of labels for this specific recipe
+    labels = []
     
     # Ask for the name of the recipe
     name = click.prompt(click.style("Name?", fg="yellow", bold=True))
@@ -90,17 +125,28 @@ def add_recipe():
 
     # Build the ingredient list
     while True:
-        action = click.prompt(click.style("Press 'a' to add an ingredient and 'q' to finish the recipe",
+        action = click.prompt(click.style("Press 'a' to add an ingredient and 'n' to continue defining the recipe",
                                            fg="yellow", bold=True))
         if action == "a":
             add_ingredient(ingredients)
+        elif action == "n":
+            break
+        else:
+            click.secho("Invalid choice", fg="red", bold=True)
+
+    # Build the label list
+    while True:
+        action = click.prompt(click.style("Press 'a' to add some labels and 'q' to finish the recipe",
+                                           fg="yellow", bold=True))
+        if action == "a":
+            add_labels(labels)
         elif action == "q":
             break
         else:
             click.secho("Invalid choice", fg="red", bold=True)
 
     # Create new recipe
-    recipe = Recipe(gid, name, count, reference, ingredients)
+    recipe = Recipe(gid, name, count, reference, ingredients, labels)
 
     # Add the recipe to the list
     recipes.append(recipe)
@@ -146,6 +192,9 @@ all_ingredients = db_ingredients.read_list(Ingredient.from_json)
 units_path_data = sys.argv[1] + "units.json"
 db_units = JManager(units_path_data)
 all_units = db_units.read_list(Unit.from_json)
+labels_path_data = sys.argv[1] + "labels.json"
+db_labels = JManager(labels_path_data)
+all_labels = db_labels.read_list(Label.from_json)
 
 # Prompt input from user
 get_recipe_input_key()

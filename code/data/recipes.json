@@ -129,8 +129,7 @@
                 "quantity": 1.0
             }
         ],
-        "labels": [
-        ],
+        "labels": [],
         "name": "chili con carne",
         "reference": "https://www.marmiton.org/recettes/recette_chili-con-carne-facile_15415.aspx"
     },
@@ -1263,5 +1262,22 @@
         "labels": [],
         "name": "burgeeeess",
         "reference": "burgers p. 10"
+    },
+    {
+        "count": 12,
+        "gid": "94f9e88f",
+        "ingredients": [
+            {
+                "gid": "c3afc452",
+                "quantity": 12.0
+            }
+        ],
+        "labels": [
+            "618c3258",
+            "01919dfc",
+            "6e8e0f28"
+        ],
+        "name": "toto",
+        "reference": "sdffdsf"
     }
 ]
