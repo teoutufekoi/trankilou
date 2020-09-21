@@ -19,6 +19,9 @@ def set_labels_for_recipe(recipe_index):
     # Select the labels
     while True:
 
+        # Print recipe name
+        print("Recipe = " + recipes[recipe_index].name + " (" + str(recipe_index) + ")")
+
         # Ask for the label using the list of existing labels
         for i in range(len(all_labels)):
             # Get to know if the label is currently associated with the recipe
@@ -28,7 +31,7 @@ def set_labels_for_recipe(recipe_index):
             print(marker + " " + str(all_labels[i].name) + " (" + str(i) + ") ")
 
         # Capture the selection
-        action = click.prompt(click.style("Select one or several labels using coma for separation. Press 'q'to quit.",
+        action = click.prompt(click.style("Select one or several labels using coma for separation. Press 'q' to quit.",
                                           fg="yellow", bold=True))
 
         # Make sure we can quit the label selection

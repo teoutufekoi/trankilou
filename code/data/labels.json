@@ -46,5 +46,33 @@
     {
         "gid": "f9b9fe52",
         "name": "v\u00e9g\u00e9tarien"
+    },
+    {
+        "gid": "35f2641a",
+        "name": "boulangerie"
+    },
+    {
+        "gid": "e03f7053",
+        "name": "France"
+    },
+    {
+        "gid": "2bd00a4c",
+        "name": "Italie"
+    },
+    {
+        "gid": "d18833a6",
+        "name": "Suisse"
+    },
+    {
+        "gid": "13b0fee5",
+        "name": "US"
+    },
+    {
+        "gid": "10e14657",
+        "name": "Belgique"
+    },
+    {
+        "gid": "b87c34dc",
+        "name": "Asie"
     }
 ]
