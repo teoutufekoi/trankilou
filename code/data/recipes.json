@@ -72,6 +72,7 @@
                 "quantity": 1.0
             }
         ],
+        "labels": [],
         "name": "lasagnes",
         "reference": "https://www.marmiton.org/recettes/recette_lasagnes-a-la-bolognaise_18215.aspx"
     },
@@ -128,6 +129,8 @@
                 "quantity": 1.0
             }
         ],
+        "labels": [
+        ],
         "name": "chili con carne",
         "reference": "https://www.marmiton.org/recettes/recette_chili-con-carne-facile_15415.aspx"
     },
@@ -160,6 +163,7 @@
                 "quantity": 100.0
             }
         ],
+        "labels": [],
         "name": "aurbergines farcies",
         "reference": "https://www.marmiton.org/recettes/recette_aubergines-farcies-aux-legumes-ou-mixte_17955.aspx"
     },
@@ -196,6 +200,7 @@
                 "quantity": 20.0
             }
         ],
+        "labels": [],
         "name": "cordon bleu",
         "reference": "https://www.marmiton.org/recettes/recette-photo_cordon-bleu_27731.aspx"
     },
@@ -232,6 +237,7 @@
                 "quantity": 50.0
             }
         ],
+        "labels": [],
         "name": "gratin dauphinois",
         "reference": "https://www.marmiton.org/recettes/recette_gratin-dauphinois_13809.aspx"
     },
@@ -268,6 +274,7 @@
                 "quantity": 0.5
             }
         ],
+        "labels": [],
         "name": "gratin de bettes",
         "reference": "https://www.marmiton.org/recettes/recette_gratin-de-bettes-a-la-parmesane_29999.aspx"
     },
@@ -308,6 +315,7 @@
                 "quantity": 40.0
             }
         ],
+        "labels": [],
         "name": "lasagne aux courgettes et au ch\u00e8vre",
         "reference": "https://www.marmiton.org/recettes/recette_lasagnes-aux-courgettes-et-au-chevre_22798.aspx"
     },
@@ -332,6 +340,7 @@
                 "quantity": 10.0
             }
         ],
+        "labels": [],
         "name": "choux vert brais\u00e9",
         "reference": "https://www.marmiton.org/recettes/recette_choux-vert-braise_81394.aspx"
     },
@@ -364,6 +373,7 @@
                 "quantity": 3.0
             }
         ],
+        "labels": [],
         "name": "velout\u00e9 de chou fleur",
         "reference": "https://www.marmiton.org/recettes/recette_veloute-de-chou-fleur_28185.aspx"
     },
@@ -396,6 +406,7 @@
                 "quantity": 2.0
             }
         ],
+        "labels": [],
         "name": "soupe au choux",
         "reference": "https://www.marmiton.org/recettes/recette_soupe-au-choux_19123.aspx#d827-p2"
     },
@@ -428,6 +439,7 @@
                 "quantity": 0.6
             }
         ],
+        "labels": [],
         "name": "gratin de chou-fleur",
         "reference": "https://www.marmiton.org/recettes/recette_gratin-patates-chou-fleur_19155.aspx"
     },
@@ -444,6 +456,7 @@
                 "quantity": 2.0
             }
         ],
+        "labels": [],
         "name": "chou-rave po\u00eal\u00e9",
         "reference": "https://www.marmiton.org/recettes/recette_chou-rave-poele_34602.aspx"
     },
@@ -484,6 +497,7 @@
                 "quantity": 60.0
             }
         ],
+        "labels": [],
         "name": "soupe au chou et saucisse",
         "reference": "https://www.marmiton.org/recettes/recette_soupe-au-chou-vert_54188.aspx"
     },
@@ -508,6 +522,7 @@
                 "quantity": 1.0
             }
         ],
+        "labels": [],
         "name": "soupe au chou-fleur, carottes et cumin",
         "reference": "https://www.marmiton.org/recettes/recette_soupe-au-chou-fleur-carotte-et-cumin_42507.aspx"
     },
@@ -532,6 +547,7 @@
                 "quantity": 25.0
             }
         ],
+        "labels": [],
         "name": "gaspacho au chou-fleur",
         "reference": "https://www.marmiton.org/recettes/recette_gaspacho-au-chou-fleur_49498.aspx"
     },
@@ -580,6 +596,7 @@
                 "quantity": 4.0
             }
         ],
+        "labels": [],
         "name": "carbonade flamande",
         "reference": "https://www.marmiton.org/recettes/recette_carbonnade-flamande_169399.aspx"
     },
@@ -600,6 +617,7 @@
                 "quantity": 3.0
             }
         ],
+        "labels": [],
         "name": "c\u00e9leri saut\u00e9",
         "reference": "https://www.marmiton.org/recettes/recette_celeri-saute_33451.aspx"
     },
@@ -644,6 +662,7 @@
                 "quantity": 3.0
             }
         ],
+        "labels": [],
         "name": "gratin de brocolis",
         "reference": "https://www.marmiton.org/recettes/recette_gratin-de-brocolis-facile_18753.aspx"
     },
@@ -700,6 +719,7 @@
                 "quantity": 100.0
             }
         ],
+        "labels": [],
         "name": "osso bucco milanaise",
         "reference": "https://www.marmiton.org/recettes/recette_osso-bucco-milanaise_26684.aspx"
     },
@@ -756,6 +776,7 @@
                 "quantity": 1.0
             }
         ],
+        "labels": [],
         "name": "ribollita - soupe de l\u00e9gumes toscane",
         "reference": "https://www.marmiton.org/recettes/recette_ribollita-soupe-de-legumes-toscane-italie_16309.aspx#d50175-p2"
     },
@@ -816,6 +837,7 @@
                 "quantity": 100.0
             }
         ],
+        "labels": [],
         "name": "soupe de lentilles corail",
         "reference": "https://www.marmiton.org/recettes/recette_soupe-de-lentilles-corail_34872.aspx"
     },
@@ -852,6 +874,7 @@
                 "quantity": 20.0
             }
         ],
+        "labels": [],
         "name": "broccoli \u00e0 l'italienne",
         "reference": "https://www.marmiton.org/recettes/recette_broccoli-a-l-italienne_17127.aspx"
     },
@@ -880,6 +903,7 @@
                 "quantity": 25.0
             }
         ],
+        "labels": [],
         "name": "velout\u00e9 de brocolis",
         "reference": "https://www.marmiton.org/recettes/recette_veloute-de-brocolis_27391.aspx"
     },
@@ -908,6 +932,7 @@
                 "quantity": 50.0
             }
         ],
+        "labels": [],
         "name": "gratin de p\u00e2tes au brocoli",
         "reference": "https://www.marmiton.org/recettes/recette_pates-gratinees-aux-brocolis_38851.aspx"
     },
@@ -928,6 +953,7 @@
                 "quantity": 1.0
             }
         ],
+        "labels": [],
         "name": "pur\u00e9e de celeri",
         "reference": "https://www.marmiton.org/recettes/recette_puree-de-celeri_16664.aspx"
     },
@@ -964,6 +990,7 @@
                 "quantity": 2.0
             }
         ],
+        "labels": [],
         "name": "soupe aux c\u00e9leri et aux courgettes",
         "reference": "https://www.marmiton.org/recettes/recette_soupe-aux-celeri-et-aux-courgettes_18757.aspx"
     },
@@ -996,6 +1023,7 @@
                 "quantity": 2.0
             }
         ],
+        "labels": [],
         "name": "tarte au saumon et brocoli",
         "reference": "https://www.marmiton.org/recettes/recette_tarte-saumon-brocolis_21443.aspx"
     },
@@ -1044,6 +1072,7 @@
                 "quantity": 40.0
             }
         ],
+        "labels": [],
         "name": "Macaroni du chalet et compote de pommes",
         "reference": "https://www.swissmilk.ch/fr/recettes-idees/recettes/LM200309_57_A/macaroni-du-chalet-et-compote-de-pommes/"
     },
@@ -1116,6 +1145,7 @@
                 "quantity": 50.0
             }
         ],
+        "labels": [],
         "name": "hachis parmentier",
         "reference": "carnet retrouv\u00e9 p. 141"
     },
@@ -1148,6 +1178,7 @@
                 "quantity": 10.0
             }
         ],
+        "labels": [],
         "name": "Pains pour burgeeess ",
         "reference": "500 pains (p234)"
     },
@@ -1160,6 +1191,7 @@
                 "quantity": 1.6
             }
         ],
+        "labels": [],
         "name": "Frites",
         "reference": "Burgers et mini burgers (57)"
     },
@@ -1228,6 +1260,7 @@
                 "quantity": 2.0
             }
         ],
+        "labels": [],
         "name": "burgeeeess",
         "reference": "burgers p. 10"
     }

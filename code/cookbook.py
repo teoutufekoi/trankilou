@@ -1,6 +1,18 @@
 from typing import List
 import json
 
+
+class Label:
+
+    def __init__(self, gid: object, name: object):
+        self.gid = gid
+        self.name = name
+
+    @classmethod
+    def from_json(cls, data):
+        return cls(**data)
+
+
 class Domain:
 
     def __init__(self, gid: object, name: object):
@@ -39,15 +51,21 @@ class Ingredient:
 
 class Recipe:
 
-    def __init__(self, gid: int, name: str, count: int, reference: int, ingredients: List[int]):
+    def __init__(self, gid: int, name: str, count: int, reference: int, ingredients: List[int], labels: List[str]):
         self.gid = gid
         self.name = name
         self.count = count
         self.reference = reference
         self.ingredients = ingredients
+        self.labels = labels
 
     def add_ingredient(self, ingredient):
+        # TODO merge ingredients if the ingredient is alreday part of the list
         self.ingredients.append(ingredient)
+
+    def add_label(self, label):
+        if label not in self.labels:
+            self.labels.append(label)
 
     @classmethod
     def from_json(cls, data):
