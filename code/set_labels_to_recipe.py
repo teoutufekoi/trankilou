@@ -21,6 +21,8 @@ def set_labels_for_recipe(recipe_index):
 
         # Print recipe name
         print("Recipe = " + recipes[recipe_index].name + " (" + str(recipe_index) + ")")
+        print("Recipe date = " + recipes[recipe_index].date + " (" + str(recipe_index) + ")")
+        print("Recipe author = " + recipes[recipe_index].author + " (" + str(recipe_index) + ")")
 
         # Ask for the label using the list of existing labels
         for i in range(len(all_labels)):

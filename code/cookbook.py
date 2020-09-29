@@ -51,13 +51,16 @@ class Ingredient:
 
 class Recipe:
 
-    def __init__(self, gid: int, name: str, count: int, reference: int, ingredients: List[int], labels: List[str]):
+    def __init__(self, gid: int, name: str, count: int, reference: int, ingredients: List[int],
+                 labels: List[str], date: str, author: str):
         self.gid = gid
         self.name = name
         self.count = count
         self.reference = reference
         self.ingredients = ingredients
         self.labels = labels
+        self.date = date
+        self.author = author
 
     def add_ingredient(self, ingredient):
         # TODO merge ingredients if the ingredient is alreday part of the list
