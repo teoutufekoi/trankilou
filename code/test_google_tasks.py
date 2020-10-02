@@ -13,61 +13,80 @@ SCOPES = ['https://www.googleapis.com/auth/tasks']
 service = Create_Service(CLIENT_SECRET_FILE, API_SERVICE_NAME, API_VERSION, SCOPES)
 
 """
-Insert method
+Insert new tasklist
 """
-tasklistShoppingList = service.tasklists().insert(
-    body={'title': '01 Oct 2020 - Shopping list - Premier essai'}
-).execute()
+# tasklistShoppingList = service.tasklists().insert(
+#     body={'title': '02 Oct 2020 - Shopping list'}
+# ).execute()
 
+tasklistId = 'RWtNLVNoYTVZSFFkbi1SRA'
 
-"""
-List method
-"""
-response = service.tasklists().list().execute()
-lstItems = response.get('items')
-nextPageToken = response.get('nextPageToken')
-
-while nextPageToken:
-    response = service.tasklists().list(
-        maxResults=30,
-        pageToken=nextPageToken
-    ).execute()
-    lstItems.extend(response.get('items'))
-    nextPageToken = response.get('nextPageToken')
-
-print(pd.DataFrame(lstItems).head())
-
-pd.set_option('display.max_columns', 100)
-pd.set_option('display.max_rows', 500)
-pd.set_option('display.min_rows', 500)
-pd.set_option('display.max_colwidth', 150)
-pd.set_option('display.width', 120)
-pd.set_option('expand_frame_repr', True)
 
 """
-Delete Method
+Insert couples of ingredients
 """
-for item in lstItems:
+
+
+def construct_request_body(title, notes=None, due=None, status='needsAction', deleted=False):
     try:
-        if isinstance(int(item.get('title').replace('Tasklist #', '')), int):
-            if int(item.get('title').replace('Tasklist #', '')) > 0:
-                # print(int(item.get('title').replace('Tasklist #', '')))
-                service.tasklists().delete(tasklist=item.get('id')).execute()
-    except:
-        pass
+        request_body = {
+            'title': title,
+            'notes': notes,
+            'due': due,
+            'deleted': deleted,
+            'status': status
+        }
+        return request_body
+    except Exception:
+        return None
 
-response = service.tasklists().list(maxResults=100).execute()
-print(pd.DataFrame(response.get('items')))
 
-"""
-Update Method
-"""
-mainTasklist = response.get('items')[1]
-mainTasklist['title'] = 'Restaurants to eat'
-service.tasklists().update(tasklist=mainTasklist['id'], body=mainTasklist).execute()
+ingredients = {
+        'fruits et légumes': [
+            {
+                'name': 'pommes de terre',
+                'quantity': '5kg'
+            },
+            {
+                'name': 'oignons',
+                'quantity': '3pc'
+            }
+        ],
+        'produits frais': [
+            {
+                'name': 'beurre',
+                'quantity': '250g'
+            },
+            {
+                'name': 'crème fraîche',
+                'quantity': '50cl'
+            }
+        ],
+}
 
-"""
-Get Method
-"""
-print(service.tasklists().get(tasklist='dnljMmxKWDJ0ZTBYcWdZZg').execute())
+previousDomainId = None
+for domain in ingredients:
+    request_body = construct_request_body(
+        title=domain
+    )
+    response = service.tasks().insert(
+        tasklist=tasklistId,
+        body=request_body,
+        previous=previousDomainId
+    ).execute()
+    previousDomainId = response.get('id')
+
+    previousIngredientId = None
+    for ingredient in ingredients[domain]:
+        request_body = construct_request_body(
+            title=ingredient['name'],
+            notes=ingredient['quantity']
+        )
+        response = service.tasks().insert(
+            tasklist=tasklistId,
+            body=request_body,
+            previous=previousIngredientId,
+            parent=previousDomainId
+        ).execute()
+        previousIngredientId = response.get('id')
 
