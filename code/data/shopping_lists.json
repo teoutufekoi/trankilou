@@ -190,5 +190,31 @@
                 "gid": "870f8cb3"
             }
         ]
+    },
+    {
+        "gid": "18f31d13",
+        "name": "Jana et Joshua sont l\u00e0!",
+        "recipes": [
+            {
+                "count": 12.0,
+                "gid": "870f8cb3"
+            },
+            {
+                "count": 12.0,
+                "gid": "0a97841e"
+            },
+            {
+                "count": 8.0,
+                "gid": "4bdf1c40"
+            },
+            {
+                "count": 8.0,
+                "gid": "d6c2d0c4"
+            },
+            {
+                "count": 8.0,
+                "gid": "f93aa701"
+            }
+        ]
     }
 ]
