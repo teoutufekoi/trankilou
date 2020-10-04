@@ -23,6 +23,25 @@ def list_ingredients():
                 print(ingredient.name + " (" + unit_ingredient + ")" )
 
 
+def filter_ingredients(ingredient, str_input):
+    if str_input in ingredient:
+        return True
+    else:
+        return False
+
+
+def search_ingredient():
+    ingredient_names = [i.name for i in ingredients]
+    while True:
+        str_input = click.prompt(click.style("Type your ingredient (q to quit)",
+                                           fg="yellow", bold=True))
+        if str_input == "q":
+            break
+        filtered_ingredients = filter(lambda seq: filter_ingredients(seq, str_input), ingredient_names)
+        for ingredient in filtered_ingredients:
+            print(ingredient)
+
+
 def record_ingredients():
     db.record_list(ingredients)
 
@@ -73,18 +92,21 @@ def add_ingredient():
 
 
 def get_ingredient_input_key():
-    info = ""
-    info += "'l' => list the current ingredients\n"
-    info += "'a' => add new ingredient\n"
-    info += "'q' => record and quit\n"
-    click.secho(info, fg="yellow", bold=True)
     while True:
+        info = ""
+        info += "'l' => list the current ingredients\n"
+        info += "'s' => search for an ingredient\n"
+        info += "'a' => add new ingredient\n"
+        info += "'q' => record and quit\n"
+        click.secho(info, fg="yellow", bold=True)
         action = click.prompt(click.style("Select an action",
                                            fg="yellow", bold=True))
         if action == "l":
             list_ingredients()
         elif action == "a":
             add_ingredient()
+        elif action == "s":
+            search_ingredient()
         elif action == "q":
             print("Ciao!!")
             exit(0)
