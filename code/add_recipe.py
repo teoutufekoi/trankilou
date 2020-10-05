@@ -3,6 +3,7 @@ import binascii
 import os
 from cookbook import *
 from database import *
+from datetime import date
 
 
 def generate_gid():
@@ -145,8 +146,14 @@ def add_recipe():
         else:
             click.secho("Invalid choice", fg="red", bold=True)
 
+    # Get the current date
+    today = date.today().strftime("%Y-%m-%d")
+
+    # Get the author
+    author = "Seb"
+
     # Create new recipe
-    recipe = Recipe(gid, name, count, reference, ingredients, labels)
+    recipe = Recipe(gid, name, count, reference, ingredients, labels, today, author)
 
     # Add the recipe to the list
     recipes.append(recipe)
