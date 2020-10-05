@@ -61,23 +61,40 @@ def add_labels(labels):
             labels.append(label_gid)
 
 
+def filter_ingredients(ingredient, str_input):
+    if str_input in ingredient:
+        return True
+    else:
+        return False
+
+
 def add_ingredient(ingredients):
     # Initiate the ingredient structure
     ingredient = {}
 
     # Ask for the ingredient using the list of existing ingredients
+    all_ingredients_list = []
     for i in range(len(all_ingredients)):
-        print("- " + str(i) + " - " + str(all_ingredients[i].name) + " (" + get_unit(str(all_ingredients[i].unit)) + ")")
+        s = "- " + str(i) + " - " + str(all_ingredients[i].name) + " (" + get_unit(str(all_ingredients[i].unit)) + ")"
+        all_ingredients_list.append(s)
+        print(s)
+
+    # Print all ingredients
+    # for s in all_ingredients_list:
+    #    print(s, end="")
 
     # Select the ingredient
     while True:
-        action = click.prompt(click.style("Select an ingredient",
+        # Ask for input (select ingredient or filter the list)
+        action = click.prompt(click.style("Select an ingredient or filter by name (' ' to see all ingredients)",
                                           fg="yellow", bold=True))
         if action.isdigit() and float(action) < len(all_ingredients):
             ingredient["gid"] = all_ingredients[int(action)].gid
             break
         else:
-            click.secho("Please select an ingredient using a proper index.", fg="red", bold=True)
+            filtered_ingredients = filter(lambda seq: filter_ingredients(seq, action), all_ingredients_list)
+            for ingredient_str in filtered_ingredients:
+                print(ingredient_str)
 
     # Select the quantity
     while True:
