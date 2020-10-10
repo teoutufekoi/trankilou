@@ -79,17 +79,15 @@ def add_ingredient(ingredients):
         all_ingredients_list.append(s)
         print(s)
 
-    # Print all ingredients
-    # for s in all_ingredients_list:
-    #    print(s, end="")
-
     # Select the ingredient
     while True:
         # Ask for input (select ingredient or filter the list)
-        action = click.prompt(click.style("Select an ingredient or filter by name (' ' to see all ingredients)",
+        action = click.prompt(click.style("Select an ingredient or filter by name (press SPACE to see all ingredients)",
                                           fg="yellow", bold=True))
         if action.isdigit() and float(action) < len(all_ingredients):
             ingredient["gid"] = all_ingredients[int(action)].gid
+            ingredient["name"] = all_ingredients[int(action)].name
+            ingredient["unity"] = get_unit(str(all_ingredients[int(action)].unit))
             break
         else:
             filtered_ingredients = filter(lambda seq: filter_ingredients(seq, action), all_ingredients_list)
@@ -108,6 +106,16 @@ def add_ingredient(ingredients):
 
     # Add the ingredient to the list
     ingredients.append(ingredient)
+
+    # Print current ingredient list
+    for ing in ingredients:
+        print("Added " + ing["name"] + " (" + str(ing["quantity"]) + ing["unity"] + ")")
+
+
+def clean_ingredient(ingredients):
+    for ingredient in ingredients:
+        del ingredient["name"]
+        del ingredient["unity"]
 
 
 def add_recipe():
@@ -168,6 +176,9 @@ def add_recipe():
 
     # Get the author
     author = "Seb"
+
+    # Clean ingredient list
+    clean_ingredient(ingredients)
 
     # Create new recipe
     recipe = Recipe(gid, name, count, reference, ingredients, labels, today, author)
