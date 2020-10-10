@@ -1,4 +1,5 @@
-# trankilou
+# Description
+
 Quick tool to generate purchasing list based on favorites meals
 
 1 - add your ingredients first
@@ -8,4 +9,9 @@ Quick tool to generate purchasing list based on favorites meals
 3 - build your shopping list
 
 4 - export the shopping list to a text file
+
+# Dependencies
+
+python 3.8
+click
 
