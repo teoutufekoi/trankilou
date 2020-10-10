@@ -13,5 +13,5 @@ Quick tool to generate purchasing list based on favorites meals
 # Dependencies
 
 python 3.8
-click
+pip install click pandas google-api-python-client google-auth-httplib2 google-auth-oauthlib
 

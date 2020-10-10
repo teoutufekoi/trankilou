@@ -155,7 +155,7 @@ if __name__ == "__main__":
     import sys
 
 # Initialize Google API tasks service
-FOLDER_PATH = r'.'
+FOLDER_PATH = sys.argv[1]
 CLIENT_SECRET_FILE = os.path.join(FOLDER_PATH, 'credentials-trankilou.json')
 API_SERVICE_NAME = 'tasks'
 API_VERSION = 'v1'
