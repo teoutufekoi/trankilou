@@ -51,14 +51,9 @@ def export2csv():
             # Get to know if the label is currently associated with the recipe
             ingredient_gids = [ x['gid'] for x in recipe.ingredients]
             recipe_row[all_ingredients[i].name] = "1" if all_ingredients[i].gid in ingredient_gids else "0"
-    # all_ingredients_list = []
-    # for i in range(len(all_ingredients)):
-    #     s = "- " + str(i) + " - " + str(all_ingredients[i].name) + " (" + get_unit(str(all_ingredients[i].unit)) + ")"
-    #     all_ingredients_list.append(s)
-    #     print(s)
  
     # Write content to csv file
-    with open('out.csv', 'w', newline='') as csvfile:
+    with open('out.csv', 'w', newline='\n', encoding='utf-8') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter='\t', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         # Export the header
         spamwriter.writerow(header)
@@ -80,6 +75,8 @@ def export_recipes():
                                            fg="yellow", bold=True))
         if action == "csv":
             export2csv()
+            print("Export to csv succeeded")
+            exit(0)
         elif action == "google":
             break
         elif action == "q":
