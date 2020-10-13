@@ -6,11 +6,30 @@ from cookbook import *
 from database import *
 from datetime import date
 
+def csvheader():
+    header = []
+    # Start with recipe main attributes
+    header.append('gid')
+    header.append('name')
+    header.append('author')
+    header.append('date')
+    # Add labels
+    for i in range(len(all_labels)):
+        header.append(all_labels[i].name)
+    # Add labels
+    for i in range(len(all_ingredients)):
+        header.append(all_ingredients[i].name)
+
+    return header
+
 
 def export2csv():
 
     # Item to export
     items = []
+
+    # header
+    header = csvheader()
 
     # Build the list of recipes
     recipes = []
@@ -22,18 +41,28 @@ def export2csv():
         recipe_row['date'] = recipe.date
         recipes.append(recipe_row)
 
-    # Add labels information
+        # Add labels information
+        for i in range(len(all_labels)):
+            # Get to know if the label is currently associated with the recipe
+            recipe_row[all_labels[i].name] = "1" if all_labels[i].gid in recipe.labels else "0"
     
-    # Add ingredients information
+        # Add ingredients information
+        for i in range(len(all_ingredients)):
+            # Get to know if the label is currently associated with the recipe
+            ingredient_gids = [ x['gid'] for x in recipe.ingredients]
+            recipe_row[all_ingredients[i].name] = "1" if all_ingredients[i].gid in ingredient_gids else "0"
     # all_ingredients_list = []
     # for i in range(len(all_ingredients)):
     #     s = "- " + str(i) + " - " + str(all_ingredients[i].name) + " (" + get_unit(str(all_ingredients[i].unit)) + ")"
     #     all_ingredients_list.append(s)
     #     print(s)
-
-    # Export the list
+ 
+    # Write content to csv file
     with open('out.csv', 'w', newline='') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter='\t', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        # Export the header
+        spamwriter.writerow(header)
+        # Export the list
         for recipe in recipes:
             spamwriter.writerow(recipe.values())
 
