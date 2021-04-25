@@ -216,5 +216,47 @@
                 "gid": "f93aa701"
             }
         ]
+    },
+    {
+        "gid": "6289f76d",
+        "name": "liste de printemps",
+        "recipes": [
+            {
+                "count": 8.0,
+                "gid": "6c5de233"
+            },
+            {
+                "count": 4.0,
+                "gid": "c360b0d3"
+            },
+            {
+                "count": 4.0,
+                "gid": "79a10060"
+            },
+            {
+                "count": 4.0,
+                "gid": "7a149cb1"
+            },
+            {
+                "count": 4.0,
+                "gid": "64e13d62"
+            },
+            {
+                "count": 4.0,
+                "gid": "776dc7e1"
+            },
+            {
+                "count": 4.0,
+                "gid": "a165280e"
+            },
+            {
+                "count": 8.0,
+                "gid": "d6c2d0c4"
+            },
+            {
+                "count": 6.0,
+                "gid": "f93aa701"
+            }
+        ]
     }
 ]
