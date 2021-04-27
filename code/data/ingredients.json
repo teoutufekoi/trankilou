@@ -804,27 +804,9 @@
     },
     {
         "domain": "17b14bbf",
-        "gid": "ef5b3164",
-        "name": "curcuma",
-        "unit": "5033bb1a"
-    },
-    {
-        "domain": "17b14bbf",
-        "gid": "ac30ac90",
-        "name": "miel liquide",
-        "unit": "d7b90c20"
-    },
-    {
-        "domain": "17b14bbf",
         "gid": "16ae0ce2",
         "name": "raisins secs",
         "unit": "d7b90c20"
-    },
-    {
-        "domain": "39b88b46",
-        "gid": "f92addf7",
-        "name": "yaourt \u00e0 la grecque",
-        "unit": "17c4cd83"
     },
     {
         "domain": "164a7427",

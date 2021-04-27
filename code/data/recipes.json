@@ -1536,7 +1536,8 @@
             "618c3258",
             "132118cb",
             "6e8e0f28",
-            "f9b9fe52"
+            "f9b9fe52",
+            "df09b8ed"
         ],
         "name": "Salade d'orge aux tiges de brocolis grill\u00e9es & zaatar",
         "reference": "Persiana p. 152"
@@ -1580,7 +1581,8 @@
             "2f2b0921",
             "132118cb",
             "6e8e0f28",
-            "f9b9fe52"
+            "f9b9fe52",
+            "df09b8ed"
         ],
         "name": "Salade de quinoa aux pistaches grill\u00e9es, citrons confits & courgettes",
         "reference": "Persiana p. 168"
@@ -1611,7 +1613,8 @@
             "ab19b4c8",
             "132118cb",
             "6e8e0f28",
-            "f9b9fe52"
+            "f9b9fe52",
+            "df09b8ed"
         ],
         "name": "Asperges marin\u00e9es \u00e0 l'harissa",
         "reference": "Persiana p.193"
@@ -1665,7 +1668,8 @@
         "labels": [
             "618c3258",
             "132118cb",
-            "6e8e0f28"
+            "6e8e0f28",
+            "df09b8ed"
         ],
         "name": "Wraps de poulet au ras-el-hanout",
         "reference": "Persiana p.109"
@@ -1782,7 +1786,8 @@
             "618c3258",
             "132118cb",
             "6e8e0f28",
-            "f9b9fe52"
+            "f9b9fe52",
+            "df09b8ed"
         ],
         "name": "Lentilles beluga \u00e0 l'orientale",
         "reference": "https://www.si-bon.ch/?p=1503"
@@ -1801,7 +1806,7 @@
                 "quantity": 1000.0
             },
             {
-                "gid": "ef5b3164",
+                "gid": "198a4acb",
                 "quantity": 3.0
             },
             {
@@ -1877,7 +1882,7 @@
                 "quantity": 5.0
             },
             {
-                "gid": "ac30ac90",
+                "gid": "6b696719",
                 "quantity": 2.0
             }
         ],
@@ -1901,7 +1906,7 @@
                 "quantity": 1.0
             },
             {
-                "gid": "f92addf7",
+                "gid": "dd4017f1",
                 "quantity": 50.0
             },
             {
