@@ -1,0 +1,129 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"PYTHONPATH": "${workspaceFolder}/src"
+		},
+		"python.pythonPath": ".venv\\Scripts\\python.exe",
+		"python.venvFolders": [
+			".venv"
+		],
+		"python.venvPath": ".venv",
+		"python.terminal.activateEnvInCurrentTerminal": true,
+		"python.analysis.extraPaths": [
+			"${workspaceFolder}/src/"
+		]
+	},
+	"launch": {
+		"configurations": [
+			{
+				"name": "add_domain",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/add_domain.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "add_ingredient",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/add_ingredient.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "add_label",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/add_label.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "add_recipe",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/add_recipe.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "add_shopping_list",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/add_shopping_list.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "add_unit",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/add_unit.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "export_recipes",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/export_recipes.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "print_shopping_list",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/print_shopping_list.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "set_labels_to_recipes",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/set_labels_to_recipes.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "test_google_sheet",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/test_google_sheet.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "test_google_tasklist",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/test_google_tasklist.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "test_google_tasks",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/test_google_tasks.py",
+				"console": "integratedTerminal",
+				"args": []
+			},
+			{
+				"name": "upload_shopping_list",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/src/upload_shopping_list.py",
+				"console": "integratedTerminal",
+				"args": []
+			}
+		]
+	}
+}

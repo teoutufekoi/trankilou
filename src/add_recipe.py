@@ -218,16 +218,16 @@ if __name__ == "__main__":
     import sys
 
 # Initialize the list of recipes from the JSON file
-data_path = sys.argv[1] + "recipes.json"
+data_path = "src/data/recipes.json"
 db = JManager(data_path)
 recipes = db.read_list(Recipe.from_json)
-ingredient_path_data = sys.argv[1] + "ingredients.json"
+ingredient_path_data = "src/data/ingredients.json"
 db_ingredients = JManager(ingredient_path_data)
 all_ingredients = db_ingredients.read_list(Ingredient.from_json)
-units_path_data = sys.argv[1] + "units.json"
+units_path_data = "src/data/units.json"
 db_units = JManager(units_path_data)
 all_units = db_units.read_list(Unit.from_json)
-labels_path_data = sys.argv[1] + "labels.json"
+labels_path_data = "src/data/labels.json"
 db_labels = JManager(labels_path_data)
 all_labels = db_labels.read_list(Label.from_json)
 

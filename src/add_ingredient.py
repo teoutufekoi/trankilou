@@ -119,13 +119,13 @@ if __name__ == "__main__":
     import sys
 
 # Initialize the list of ingredients from the JSON file
-data_path = sys.argv[1] + "ingredients.json"
+data_path = "src/data/ingredients.json"
 db = JManager(data_path)
 ingredients = db.read_list(Ingredient.from_json)
-unit_path_data = sys.argv[1] + "units.json"
+unit_path_data = "src/data/units.json"
 db_unit = JManager(unit_path_data)
 units = db_unit.read_list(Unit.from_json)
-domain_path_data = sys.argv[1] + "domains.json"
+domain_path_data = "src/data/domains.json"
 db_domain = JManager(domain_path_data)
 domains = db_domain.read_list(Domain.from_json)
 
