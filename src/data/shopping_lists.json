@@ -258,5 +258,71 @@
                 "gid": "f93aa701"
             }
         ]
+    },
+    {
+        "gid": "9a1ea5e5",
+        "name": "Albanne autumn 2022",
+        "recipes": [
+            {
+                "count": 8.0,
+                "gid": "9146b6e9"
+            },
+            {
+                "count": 6.0,
+                "gid": "75015888"
+            },
+            {
+                "count": 12.0,
+                "gid": "be9f083b"
+            },
+            {
+                "count": 10.0,
+                "gid": "30cd22b4"
+            },
+            {
+                "count": 10.0,
+                "gid": "0a97841e"
+            },
+            {
+                "count": 10.0,
+                "gid": "ecb69553"
+            },
+            {
+                "count": 6.0,
+                "gid": "ae86de60"
+            },
+            {
+                "count": 10.0,
+                "gid": "d6c2d0c4"
+            },
+            {
+                "count": 12.0,
+                "gid": "870f8cb3"
+            },
+            {
+                "count": 8.0,
+                "gid": "2f1b9975"
+            },
+            {
+                "count": 4.0,
+                "gid": "cdc666ff"
+            },
+            {
+                "count": 4.0,
+                "gid": "93f63de1"
+            },
+            {
+                "count": 4.0,
+                "gid": "8e68e4f6"
+            },
+            {
+                "count": 4.0,
+                "gid": "4389ae9d"
+            },
+            {
+                "count": 4.0,
+                "gid": "0b2606f6"
+            }
+        ]
     }
 ]
