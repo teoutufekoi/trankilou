@@ -934,5 +934,47 @@
         "gid": "bc24db8f",
         "name": "butternut",
         "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "d598d487",
+        "name": "poudre d'amande",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "8ead70d0",
+        "name": "botte de cresson",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "541b44d5",
+        "name": "lentilles vertes",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "6bb11560",
+        "name": "cro\u00fbtons",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "3a514748",
+        "name": "chou rouge",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "bf4e7b69",
+        "name": "pomme de terre (chair ferme)",
+        "unit": "e8a9ef63"
+    },
+    {
+        "domain": "651fbb34",
+        "gid": "4a9d2b79",
+        "name": "d\u00e9s de boeuf (goulache)",
+        "unit": "ffa29d26"
     }
 ]

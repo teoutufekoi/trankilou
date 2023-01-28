@@ -404,5 +404,27 @@
                 "gid": "0a97841e"
             }
         ]
+    },
+    {
+        "gid": "c2561825",
+        "name": "March\u00e9 hiver 2023",
+        "recipes": [
+            {
+                "count": 8.0,
+                "gid": "5c04f1ba"
+            },
+            {
+                "count": 4.0,
+                "gid": "7a62c99c"
+            },
+            {
+                "count": 8.0,
+                "gid": "c2da63f3"
+            },
+            {
+                "count": 8.0,
+                "gid": "08ac5158"
+            }
+        ]
     }
 ]

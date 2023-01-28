@@ -2628,5 +2628,250 @@
         ],
         "name": "Gratin de butternut au ch\u00e8vre",
         "reference": "https://www.marmiton.org/recettes/recette_gratin-de-butternut-au-chevre_82204.aspx"
+    },
+    {
+        "author": "Seb",
+        "count": 6,
+        "date": "2023-01-28",
+        "gid": "60d3f9dd",
+        "ingredients": [
+            {
+                "gid": "a842a0dd",
+                "quantity": 60.0
+            },
+            {
+                "gid": "10612854",
+                "quantity": 10.0
+            },
+            {
+                "gid": "41623db2",
+                "quantity": 1.0
+            },
+            {
+                "gid": "d598d487",
+                "quantity": 70.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 40.0
+            },
+            {
+                "gid": "0f6a3748",
+                "quantity": 0.5
+            },
+            {
+                "gid": "8ead70d0",
+                "quantity": 1.0
+            },
+            {
+                "gid": "128be540",
+                "quantity": 1.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 20.0
+            }
+        ],
+        "labels": [
+            "6d77bf99",
+            "132118cb",
+            "6e8e0f28",
+            "f9b9fe52",
+            "e03f7053"
+        ],
+        "name": "Soupe de cresson \u00e0 l'amande",
+        "reference": "https://www.cuisineaz.com/recettes/soupe-de-cresson-a-l-amande-38055.aspx?navdiapo=1912-7"
+    },
+    {
+        "author": "Seb",
+        "count": 8,
+        "date": "2023-01-28",
+        "gid": "5c04f1ba",
+        "ingredients": [
+            {
+                "gid": "541b44d5",
+                "quantity": 500.0
+            },
+            {
+                "gid": "1683f457",
+                "quantity": 2.0
+            },
+            {
+                "gid": "6bb11560",
+                "quantity": 150.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 5.0
+            },
+            {
+                "gid": "45fa2693",
+                "quantity": 6.0
+            }
+        ],
+        "labels": [
+            "6d77bf99",
+            "132118cb",
+            "6e8e0f28",
+            "f9b9fe52",
+            "e03f7053",
+            "e03f7053"
+        ],
+        "name": "Soupe aux lentilles",
+        "reference": "https://www.cuisineaz.com/recettes/soupe-aux-lentilles-29303.aspx?navdiapo=1912-12"
+    },
+    {
+        "author": "Seb",
+        "count": 4,
+        "date": "2023-01-28",
+        "gid": "7a62c99c",
+        "ingredients": [
+            {
+                "gid": "0a34c760",
+                "quantity": 3.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 20.0
+            },
+            {
+                "gid": "44651bb5",
+                "quantity": 1.0
+            },
+            {
+                "gid": "6bb11560",
+                "quantity": 150.0
+            },
+            {
+                "gid": "46e1f1b6",
+                "quantity": 0.0
+            },
+            {
+                "gid": "155f3d75",
+                "quantity": 20.0
+            },
+            {
+                "gid": "46e1f1b6",
+                "quantity": 100.0
+            },
+            {
+                "gid": "d553a4e6",
+                "quantity": 1.0
+            },
+            {
+                "gid": "d7df33bf",
+                "quantity": 200.0
+            }
+        ],
+        "labels": [],
+        "name": "Soupe \u00e0 l'oignon facile",
+        "reference": "https://www.cuisineaz.com/recettes/soupe-a-l-oignon-facile-15035.aspx?navdiapo=1912-13"
+    },
+    {
+        "author": "Seb",
+        "count": 4,
+        "date": "2023-01-28",
+        "gid": "c2da63f3",
+        "ingredients": [
+            {
+                "gid": "05987082",
+                "quantity": 0.02
+            },
+            {
+                "gid": "3de6f2a0",
+                "quantity": 150.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 1.0
+            },
+            {
+                "gid": "3a514748",
+                "quantity": 1.0
+            },
+            {
+                "gid": "9007c83c",
+                "quantity": 3.0
+            }
+        ],
+        "labels": [
+            "6d77bf99",
+            "132118cb",
+            "6e8e0f28",
+            "e03f7053"
+        ],
+        "name": "Soupe aux pommes de terre, chou rouge et lardons",
+        "reference": "https://www.cuisineaz.com/recettes/soupe-aux-pommes-de-terre-chou-rouge-et-lardons-77438.aspx?navdiapo=1912-4"
+    },
+    {
+        "author": "Seb",
+        "count": 6,
+        "date": "2023-01-28",
+        "gid": "08ac5158",
+        "ingredients": [
+            {
+                "gid": "4a9d2b79",
+                "quantity": 500.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 1.0
+            },
+            {
+                "gid": "e452d503",
+                "quantity": 2.0
+            },
+            {
+                "gid": "7bd62110",
+                "quantity": 20.0
+            },
+            {
+                "gid": "296b2c20",
+                "quantity": 1.0
+            },
+            {
+                "gid": "9007c83c",
+                "quantity": 40.0
+            },
+            {
+                "gid": "bf4e7b69",
+                "quantity": 0.5
+            },
+            {
+                "gid": "21325467",
+                "quantity": 2.0
+            },
+            {
+                "gid": "99338111",
+                "quantity": 0.3
+            },
+            {
+                "gid": "d553a4e6",
+                "quantity": 1.0
+            },
+            {
+                "gid": "46e1f1b6",
+                "quantity": 100.0
+            },
+            {
+                "gid": "b2dc56f9",
+                "quantity": 5.0
+            },
+            {
+                "gid": "1683f457",
+                "quantity": 2.0
+            },
+            {
+                "gid": "8d636b1f",
+                "quantity": 15.0
+            }
+        ],
+        "labels": [
+            "6d77bf99",
+            "cdfdba7f",
+            "6e8e0f28"
+        ],
+        "name": "Soupe goulache hongroise",
+        "reference": "https://www.bettybossi.ch/fr/Rezept/ShowRezept/BB_BBZA050115_0014A-60-fr"
     }
 ]
