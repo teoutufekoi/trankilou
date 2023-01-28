@@ -324,5 +324,85 @@
                 "gid": "0b2606f6"
             }
         ]
+    },
+    {
+        "gid": "10eea958",
+        "name": "Vercors 2022",
+        "recipes": [
+            {
+                "count": 9.0,
+                "gid": "870f8cb3"
+            },
+            {
+                "count": 9.0,
+                "gid": "c8453765"
+            },
+            {
+                "count": 6.0,
+                "gid": "fc00e941"
+            },
+            {
+                "count": 9.0,
+                "gid": "d254cd81"
+            },
+            {
+                "count": 9.0,
+                "gid": "3dee3180"
+            },
+            {
+                "count": 9.0,
+                "gid": "8e68e4f6"
+            },
+            {
+                "count": 9.0,
+                "gid": "d6c2d0c4"
+            },
+            {
+                "count": 9.0,
+                "gid": "0b2606f6"
+            }
+        ]
+    },
+    {
+        "gid": "77716cb1",
+        "name": "Weekend de Janvier",
+        "recipes": [
+            {
+                "count": 6.0,
+                "gid": "fc00e941"
+            },
+            {
+                "count": 8.0,
+                "gid": "ecb69553"
+            },
+            {
+                "count": 6.0,
+                "gid": "1add9d1f"
+            },
+            {
+                "count": 6.0,
+                "gid": "baa39cef"
+            },
+            {
+                "count": 8.0,
+                "gid": "83ce10e0"
+            },
+            {
+                "count": 8.0,
+                "gid": "d6c2d0c4"
+            },
+            {
+                "count": 8.0,
+                "gid": "2f1b9975"
+            },
+            {
+                "count": 8.0,
+                "gid": "870f8cb3"
+            },
+            {
+                "count": 8.0,
+                "gid": "0a97841e"
+            }
+        ]
     }
 ]

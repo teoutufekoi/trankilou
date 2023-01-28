@@ -916,5 +916,23 @@
         "gid": "9a20f280",
         "name": "thon",
         "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "36d12ac8",
+        "name": "petits pois",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "879b66ac",
+        "name": "courge",
+        "unit": "e8a9ef63"
+    },
+    {
+        "domain": "164a7427",
+        "gid": "bc24db8f",
+        "name": "butternut",
+        "unit": "590c07ad"
     }
 ]
