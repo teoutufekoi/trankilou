@@ -2763,7 +2763,13 @@
                 "quantity": 200.0
             }
         ],
-        "labels": [],
+        "labels": [
+            "6d77bf99",
+            "132118cb",
+            "6e8e0f28",
+            "f9b9fe52",
+            "e03f7053"
+        ],
         "name": "Soupe \u00e0 l'oignon facile",
         "reference": "https://www.cuisineaz.com/recettes/soupe-a-l-oignon-facile-15035.aspx?navdiapo=1912-13"
     },

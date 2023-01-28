@@ -82,10 +82,10 @@ if __name__ == "__main__":
     import sys
 
 # Initialize the list of recipes from the JSON file
-data_path = sys.argv[1] + "recipes.json"
+data_path = "src/data/recipes.json"
 db = JManager(data_path)
 recipes = db.read_list(Recipe.from_json)
-labels_path_data = sys.argv[1] + "labels.json"
+labels_path_data = "src/data/labels.json"
 db_labels = JManager(labels_path_data)
 all_labels = db_labels.read_list(Label.from_json)
 

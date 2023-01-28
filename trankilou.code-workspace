@@ -88,7 +88,7 @@
 				"name": "set_labels_to_recipes",
 				"type": "python",
 				"request": "launch",
-				"program": "${workspaceFolder}/src/set_labels_to_recipes.py",
+				"program": "${workspaceFolder}/src/set_labels_to_recipe.py",
 				"console": "integratedTerminal",
 				"args": []
 			},
