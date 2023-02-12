@@ -2879,5 +2879,182 @@
         ],
         "name": "Soupe goulache hongroise",
         "reference": "https://www.bettybossi.ch/fr/Rezept/ShowRezept/BB_BBZA050115_0014A-60-fr"
+    },
+    {
+        "author": "Seb",
+        "count": 4,
+        "date": "2023-02-12",
+        "gid": "1f047a09",
+        "ingredients": [
+            {
+                "gid": "881cd658",
+                "quantity": 1.0
+            },
+            {
+                "gid": "0a34c760",
+                "quantity": 1.0
+            },
+            {
+                "gid": "95e05539",
+                "quantity": 1.0
+            },
+            {
+                "gid": "2104d676",
+                "quantity": 0.5
+            },
+            {
+                "gid": "198a4acb",
+                "quantity": 0.5
+            },
+            {
+                "gid": "8a98c681",
+                "quantity": 0.5
+            },
+            {
+                "gid": "45fa2693",
+                "quantity": 2.4
+            }
+        ],
+        "labels": [
+            "6d77bf99",
+            "132118cb",
+            "b36d005a",
+            "f9b9fe52",
+            "e03f7053"
+        ],
+        "name": "Soupe de chou-fleur aux \u00e9pices",
+        "reference": "Soupes - Le plein de vitamines - p20"
+    },
+    {
+        "author": "Seb",
+        "count": 4,
+        "date": "2023-02-12",
+        "gid": "46e51905",
+        "ingredients": [
+            {
+                "gid": "46f34cd8",
+                "quantity": 100.0
+            },
+            {
+                "gid": "6055cd24",
+                "quantity": 0.5
+            },
+            {
+                "gid": "21325467",
+                "quantity": 2.0
+            },
+            {
+                "gid": "128be540",
+                "quantity": 2.0
+            },
+            {
+                "gid": "040c04ee",
+                "quantity": 2.0
+            },
+            {
+                "gid": "0f3edb26",
+                "quantity": 1.0
+            },
+            {
+                "gid": "50b143c3",
+                "quantity": 180.0
+            },
+            {
+                "gid": "378beb1b",
+                "quantity": 4.0
+            },
+            {
+                "gid": "195d15f5",
+                "quantity": 0.5
+            },
+            {
+                "gid": "7a748a13",
+                "quantity": 100.0
+            },
+            {
+                "gid": "6c0ac3e9",
+                "quantity": 6.0
+            },
+            {
+                "gid": "6ffdcf0e",
+                "quantity": 6.0
+            },
+            {
+                "gid": "156b47d8",
+                "quantity": 5.0
+            },
+            {
+                "gid": "587c0e9c",
+                "quantity": 1.5
+            },
+            {
+                "gid": "45fa2693",
+                "quantity": 3.0
+            },
+            {
+                "gid": "a36fa6d2",
+                "quantity": 10.0
+            }
+        ],
+        "labels": [
+            "ab19b4c8",
+            "aa786400",
+            "6d77bf99",
+            "132118cb",
+            "6e8e0f28",
+            "f9b9fe52",
+            "b87c34dc"
+        ],
+        "name": "Soupe soba",
+        "reference": "https://docs.google.com/document/d/1ZRGA2bY2tJXPUju4AsxTtEm50BB6iP90qjYPm25UEPU/edit"
+    },
+    {
+        "author": "Seb",
+        "count": 4,
+        "date": "2023-02-12",
+        "gid": "88b6cc85",
+        "ingredients": [
+            {
+                "gid": "422d0793",
+                "quantity": 40.0
+            },
+            {
+                "gid": "e5b0251f",
+                "quantity": 1.0
+            },
+            {
+                "gid": "00738994",
+                "quantity": 7.0
+            },
+            {
+                "gid": "3812c9e0",
+                "quantity": 30.0
+            },
+            {
+                "gid": "ae85f945",
+                "quantity": 2.5
+            },
+            {
+                "gid": "91dc740b",
+                "quantity": 400.0
+            },
+            {
+                "gid": "1683f457",
+                "quantity": 4.0
+            },
+            {
+                "gid": "eb76b90e",
+                "quantity": 100.0
+            }
+        ],
+        "labels": [
+            "618c3258",
+            "132118cb",
+            "6e8e0f28",
+            "f9b9fe52",
+            "e03f7053"
+        ],
+        "name": "Tagliatelles aux morilles",
+        "reference": "https://www.swissmilk.ch/fr/recettes-idees/recettes/LM200205_09/pates-sauce-aux-morilles-et-a-la-creme/"
     }
 ]

@@ -426,5 +426,19 @@
                 "gid": "08ac5158"
             }
         ]
+    },
+    {
+        "gid": "285fac8c",
+        "name": "Albanne ski 2023",
+        "recipes": [
+            {
+                "count": 20.0,
+                "gid": "46e51905"
+            },
+            {
+                "count": 20.0,
+                "gid": "88b6cc85"
+            }
+        ]
     }
 ]
