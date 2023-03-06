@@ -2546,7 +2546,7 @@
             "6e8e0f28",
             "b87c34dc"
         ],
-        "name": "riz cantonais",
+        "name": "Riz cantonais",
         "reference": "https://www.marmiton.org/recettes/recette_riz-cantonais-rapide-et-facile_64576.aspx"
     },
     {
@@ -3056,5 +3056,45 @@
         ],
         "name": "Tagliatelles aux morilles",
         "reference": "https://www.swissmilk.ch/fr/recettes-idees/recettes/LM200205_09/pates-sauce-aux-morilles-et-a-la-creme/"
+    },
+    {
+        "author": "Seb",
+        "count": 4,
+        "date": "2023-03-04",
+        "gid": "6fbb5222",
+        "ingredients": [
+            {
+                "gid": "07c5aafd",
+                "quantity": 500.0
+            },
+            {
+                "gid": "cb743362",
+                "quantity": 5.0
+            },
+            {
+                "gid": "8041f73b",
+                "quantity": 15.0
+            },
+            {
+                "gid": "d7df33bf",
+                "quantity": 100.0
+            },
+            {
+                "gid": "eb76b90e",
+                "quantity": 50.0
+            },
+            {
+                "gid": "e2344151",
+                "quantity": 100.0
+            }
+        ],
+        "labels": [
+            "618c3258",
+            "132118cb",
+            "6e8e0f28",
+            "e03f7053"
+        ],
+        "name": "Gratin de coquillettes",
+        "reference": "https://www.cuisineactuelle.fr/recettes/gratin-de-coquillettes-206477"
     }
 ]

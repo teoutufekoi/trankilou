@@ -1048,5 +1048,17 @@
         "gid": "91dc740b",
         "name": "p\u00e2tes - tagliatelles",
         "unit": "ffa29d26"
+    },
+    {
+        "domain": "651fbb34",
+        "gid": "cb743362",
+        "name": "tranche de jambon \u00e0 l'os",
+        "unit": "590c07ad"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "07c5aafd",
+        "name": "coquillettes",
+        "unit": "ffa29d26"
     }
 ]
