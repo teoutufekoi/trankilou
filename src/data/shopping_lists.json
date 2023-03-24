@@ -466,5 +466,27 @@
                 "gid": "ecb69553"
             }
         ]
+    },
+    {
+        "gid": "cc66a024",
+        "name": "Mars, \u00e7a caille",
+        "recipes": [
+            {
+                "count": 10.0,
+                "gid": "6fbb5222"
+            },
+            {
+                "count": 6.0,
+                "gid": "46e51905"
+            },
+            {
+                "count": 5.0,
+                "gid": "fc00e941"
+            },
+            {
+                "count": 10.0,
+                "gid": "0a97841e"
+            }
+        ]
     }
 ]
