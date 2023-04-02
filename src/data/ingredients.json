@@ -1,5 +1,4 @@
-[
-    {
+[{
         "domain": "17b14bbf",
         "gid": "0f0e83da",
         "name": "p\u00e2te de lasagnes",
@@ -554,8 +553,8 @@
     {
         "domain": "17b14bbf",
         "gid": "2113c498",
-        "name": "levure de boulanger en poudre",
-        "unit": "5033bb1a"
+        "name": "sachet de levure de boulanger en poudre",
+        "unit": "590c07ad"
     },
     {
         "domain": "17b14bbf",
@@ -1060,5 +1059,23 @@
         "gid": "07c5aafd",
         "name": "coquillettes",
         "unit": "ffa29d26"
+    },
+    {
+        "domain": "39b88b46",
+        "gid": "34696509",
+        "name": "mozzarella",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "a15bd358",
+        "name": "semoule",
+        "unit": "ffa29d26"
+    },
+    {
+        "domain": "17b14bbf",
+        "gid": "db3abf2b",
+        "name": "huile d'olive",
+        "unit": "d7b90c20"
     }
 ]
