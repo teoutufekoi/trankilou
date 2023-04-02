@@ -488,5 +488,55 @@
                 "gid": "0a97841e"
             }
         ]
+    },
+    {
+        "gid": "0262bc1e",
+        "name": "Albanne - P\u00e2ques 2023",
+        "recipes": [
+            {
+                "count": 6.0,
+                "gid": "fc00e941"
+            },
+            {
+                "count": 6.0,
+                "gid": "ae86de60"
+            },
+            {
+                "count": 6.0,
+                "gid": "ecb69553"
+            },
+            {
+                "count": 6.0,
+                "gid": "f2d03b12"
+            },
+            {
+                "count": 3.0,
+                "gid": "5bf43a6b"
+            },
+            {
+                "count": 3.0,
+                "gid": "c1d2df9a"
+            },
+            {
+                "count": 6.0,
+                "gid": "d6c2d0c4"
+            },
+            {
+                "count": 6.0,
+                "gid": "6fbb5222"
+            },
+            {
+                "count": 6.0,
+                "gid": "75015888"
+            },
+            {
+                "count": 6.0,
+                "gid": "be9f083b"
+            },
+            {
+                "count": 6.0,
+                "gid": "870f8cb3"
+            }
+        ]
     }
 ]
