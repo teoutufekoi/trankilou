@@ -1,9 +1,7 @@
-[
-    {
+[{
         "gid": "9677b526",
         "name": "week4 2020",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 8.0,
                 "gid": "870f8cb3"
             },
@@ -36,8 +34,7 @@
     {
         "gid": "fffad819",
         "name": "lisa est l\u00e0",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 8.0,
                 "gid": "d6c2d0c4"
             },
@@ -62,8 +59,7 @@
     {
         "gid": "1e4175f3",
         "name": "pape et manou sont l\u00e0",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 8.0,
                 "gid": "5e533dda"
             },
@@ -92,8 +88,7 @@
     {
         "gid": "c8323c05",
         "name": "carnaval",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 8.0,
                 "gid": "870f8cb3"
             },
@@ -114,8 +109,7 @@
     {
         "gid": "79876043",
         "name": "caro et max sont la",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 12.0,
                 "gid": "83ce10e0"
             },
@@ -132,8 +126,7 @@
     {
         "gid": "e94e0c38",
         "name": "apr\u00e8s mariage",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 8.0,
                 "gid": "6bf156c5"
             },
@@ -150,8 +143,7 @@
     {
         "gid": "e60a5a0e",
         "name": "verre de terre",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 12.0,
                 "gid": "870f8cb3"
             },
@@ -176,8 +168,7 @@
     {
         "gid": "09991ea8",
         "name": "Entre mecs",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 12.0,
                 "gid": "167c5634"
             },
@@ -194,8 +185,7 @@
     {
         "gid": "18f31d13",
         "name": "Jana et Joshua sont l\u00e0!",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 12.0,
                 "gid": "870f8cb3"
             },
@@ -220,8 +210,7 @@
     {
         "gid": "6289f76d",
         "name": "liste de printemps",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 8.0,
                 "gid": "6c5de233"
             },
@@ -262,8 +251,7 @@
     {
         "gid": "9a1ea5e5",
         "name": "Albanne autumn 2022",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 8.0,
                 "gid": "9146b6e9"
             },
@@ -328,8 +316,7 @@
     {
         "gid": "10eea958",
         "name": "Vercors 2022",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 9.0,
                 "gid": "870f8cb3"
             },
@@ -366,8 +353,7 @@
     {
         "gid": "77716cb1",
         "name": "Weekend de Janvier",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 6.0,
                 "gid": "fc00e941"
             },
@@ -408,8 +394,7 @@
     {
         "gid": "c2561825",
         "name": "March\u00e9 hiver 2023",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 8.0,
                 "gid": "5c04f1ba"
             },
@@ -430,8 +415,7 @@
     {
         "gid": "285fac8c",
         "name": "Albanne ski 2023",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 20.0,
                 "gid": "46e51905"
             },
@@ -444,8 +428,7 @@
     {
         "gid": "b8609a29",
         "name": "march\u00e9 Feb 2023",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 6.0,
                 "gid": "6fbb5222"
             },
@@ -470,8 +453,7 @@
     {
         "gid": "cc66a024",
         "name": "Mars, \u00e7a caille",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 10.0,
                 "gid": "6fbb5222"
             },
@@ -492,8 +474,7 @@
     {
         "gid": "0262bc1e",
         "name": "Albanne - P\u00e2ques 2023",
-        "recipes": [
-            {
+        "recipes": [{
                 "count": 6.0,
                 "gid": "fc00e941"
             },
@@ -536,6 +517,31 @@
             {
                 "count": 6.0,
                 "gid": "870f8cb3"
+            }
+        ]
+    },
+    {
+        "gid": "d7d46812",
+        "name": "Anniv de Bika\u00ef",
+        "recipes": [{
+                "count": 5.0,
+                "gid": "0dfaf022"
+            },
+            {
+                "count": 8.0,
+                "gid": "96932bb1"
+            },
+            {
+                "count": 5.0,
+                "gid": "d30a4b68"
+            },
+            {
+                "count": 10.0,
+                "gid": "6fbb5222"
+            },
+            {
+                "count": 8.0,
+                "gid": "08ac5158"
             }
         ]
     }
