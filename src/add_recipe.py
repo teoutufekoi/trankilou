@@ -62,7 +62,7 @@ def add_labels(labels):
 
 
 def filter_ingredients(ingredient, str_input):
-    if str_input in ingredient:
+    if str_input.lower() in ingredient.lower():
         return True
     else:
         return False

@@ -7,8 +7,8 @@ from helpers import *
 
 
 def list_shopping_lists():
-    for i in range(len(all_recipes)):
-        print(all_recipes[i].name + " - " + all_recipes[i].reference)
+    for i in range(len(shopping_lists)):
+        print(shopping_lists[i].name)
 
 
 def record_shopping_lists():
@@ -23,24 +23,36 @@ def get_ingredients_from_recipes(recipes):
     ingredients = []
     return ingredients
 
+def filter_recipes(recipe, str_input):
+    if str_input.lower() in recipe.lower():
+        return True
+    else:
+        return False
 
 def add_recipe(recipes):
     # Initiate the recipe structure
     recipe = {}
 
-    # Ask for the ingredient using the list of existing ingredients
+    # Ask for the recipe using the list of existing recipes
+    all_recipes_list = []
     for i in range(len(all_recipes)):
-        print("- " + str(i) + " - " + str(all_recipes[i].name))
+        s = "- " + str(i) + " - " + str(all_recipes[i].name)
+        all_recipes_list.append(s)
+        print(s)
 
     # Select the recipe
     while True:
+        # Ask for input (select ingredient or filter the list)
         action = click.prompt(click.style("Select a recipe",
                                           fg="yellow", bold=True))
         if action.isdigit() and float(action) < len(all_recipes):
             recipe["gid"] = all_recipes[int(action)].gid
             break
         else:
-            click.secho("Please select a recipe using a proper index.", fg="red", bold=True)
+            filtered_recipes = filter(lambda seq: filter_recipes(seq, action), all_recipes_list)
+            for recipe_str in filtered_recipes:
+                print(recipe_str)
+            #click.secho("Please select a recipe using a proper index.", fg="red", bold=True)
 
     # Select the quantity
     while True:
